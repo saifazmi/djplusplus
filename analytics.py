@@ -2,11 +2,12 @@ import urllib2
 import json
 import re
 from os import listdir
+from os.path import expanduser
 from random import shuffle, randint
 from pydub import AudioSegment, playback
 
 AUTHORIZATION = "Bearer BQD_5-LP_zX8qYTv97k20Uq_wjDZ4e3DW2v7s4I6B3VNxQQLZm9UKmebMCh0Q_81a9HkZS20tSKrjOPQlpy5JlxsQuV7QG7SbDDgAaUNICHQPL_qmxFbF1whrBadO9Os3wbpxnTv-sqC"
-MUSIC_FOLDER = "/home/ben/Music"
+MUSIC_FOLDER = expanduser("~") + "/Music"
 
 
 def send_request(end_path):
@@ -23,7 +24,7 @@ def get_track_id(query):
     query = query.replace(" ", "+")[:-4]
     print query
     return send_request("search?type=track&limit=1&q=" + query)["tracks"]["items"][0]["id"]
-    
+
 
 def get_analytics(track_id):
     return send_request("audio-analysis/" + track_id)
