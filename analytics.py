@@ -6,7 +6,7 @@ from os.path import expanduser
 from random import shuffle, randint
 from pydub import AudioSegment, playback
 
-AUTHORIZATION = "Bearer BQD_5-LP_zX8qYTv97k20Uq_wjDZ4e3DW2v7s4I6B3VNxQQLZm9UKmebMCh0Q_81a9HkZS20tSKrjOPQlpy5JlxsQuV7QG7SbDDgAaUNICHQPL_qmxFbF1whrBadO9Os3wbpxnTv-sqC"
+AUTHORIZATION = "Bearer BQCQLoN5OwCLXkzSrQVNwA0B8wmJMYsLQ5qiIHw438kXQQyWR8M3YKaCinIiOevsaHuuuzcK30h6nW7_-1ejdh2MJNeKnbkhMM25GJVgzflxjHg6j9oU2uROlLc7DrlFBcAjUH-D8zfk"
 MUSIC_FOLDER = expanduser("~") + "/Music"
 
 
