@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=The+Chainsmokers+-+Don%27t+Let+Me+Down+ft.+Daya&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3SWmviOBdKnf2bHMl8vzCQ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3SWmviOBdKnf2bHMl8vzCQ",
+        "id" : "3SWmviOBdKnf2bHMl8vzCQ",
+        "images" : [ {
+          "height" : 600,
+          "url" : "https://i.scdn.co/image/b3f2b9ca2ad4d9eb4272feae8a01ab2fe748c716",
+          "width" : 600
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/3ad4256033ec03f2e83cda6b7d652f3406474d42",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ae1d1cde5485c443c4303ecf27e580e9101f4f11",
+          "width" : 64
+        } ],
+        "name" : "Karaoke Picks Vol. 8",
+        "type" : "album",
+        "uri" : "spotify:album:3SWmviOBdKnf2bHMl8vzCQ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/16DKwEFDumFEEUJWYSw21m"
+        },
+        "href" : "https://api.spotify.com/v1/artists/16DKwEFDumFEEUJWYSw21m",
+        "id" : "16DKwEFDumFEEUJWYSw21m",
+        "name" : "Hit The Button Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:16DKwEFDumFEEUJWYSw21m"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 210187,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBRBE0790706"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3QYuMpZsC66nwO1tf0jNLw"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3QYuMpZsC66nwO1tf0jNLw",
+      "id" : "3QYuMpZsC66nwO1tf0jNLw",
+      "name" : "Don't Let Me Down (Originally Performed by the Chainsmokers Ft. Daya) - Karaoke Instrumental Version",
+      "popularity" : 22,
+      "preview_url" : "https://p.scdn.co/mp3-preview/e870da35282487eec50a6629d35d9c9256844211",
+      "track_number" : 18,
+      "type" : "track",
+      "uri" : "spotify:track:3QYuMpZsC66nwO1tf0jNLw"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

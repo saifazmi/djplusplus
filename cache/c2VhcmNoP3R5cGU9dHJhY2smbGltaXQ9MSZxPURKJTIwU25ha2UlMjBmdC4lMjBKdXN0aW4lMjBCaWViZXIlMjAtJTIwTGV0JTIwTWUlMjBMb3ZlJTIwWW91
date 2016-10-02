@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=DJ+Snake+ft.+Justin+Bieber+-+Let+Me+Love+You&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6ssQSDVbtpfLERSbMTbpC3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6ssQSDVbtpfLERSbMTbpC3",
+        "id" : "6ssQSDVbtpfLERSbMTbpC3",
+        "images" : [ {
+          "height" : 600,
+          "url" : "https://i.scdn.co/image/7bfc3674f77b0397e7cf1b61ab42f1d4681e263e",
+          "width" : 600
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/b20f16021544afee63b773a8297f10ba64cee48b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/9eb00d0c8902b2b3d91a213d0cfc7edc9b82afa0",
+          "width" : 64
+        } ],
+        "name" : "Karaoke Picks Vol. 18",
+        "type" : "album",
+        "uri" : "spotify:album:6ssQSDVbtpfLERSbMTbpC3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/16DKwEFDumFEEUJWYSw21m"
+        },
+        "href" : "https://api.spotify.com/v1/artists/16DKwEFDumFEEUJWYSw21m",
+        "id" : "16DKwEFDumFEEUJWYSw21m",
+        "name" : "Hit The Button Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:16DKwEFDumFEEUJWYSw21m"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 206700,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBRBE0791615"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6JHgKESH9PxQs9XgbZmDP8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6JHgKESH9PxQs9XgbZmDP8",
+      "id" : "6JHgKESH9PxQs9XgbZmDP8",
+      "name" : "Let Me Love You (Originally Performed by DJ Snake Ft. Justin Bieber) - Karaoke Version",
+      "popularity" : 12,
+      "preview_url" : "https://p.scdn.co/mp3-preview/19f485c041fb79131370a908a49601e4eea9c499",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:6JHgKESH9PxQs9XgbZmDP8"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=DJ+Snake+ft.+Justin+Bieber+-+Let+Me+Love+You&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  }
+}

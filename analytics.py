@@ -14,13 +14,13 @@ RIGGED = False
 RIGGED_COUNT = 0
 
 # Command line argument stuff.
-i = 0
+argy = 0
 for arg in sys.argv:
-    if i == 1:
+    if argy == 1:
         MUSIC_FOLDER = expanduser("~") + "/Music"  # arg # TODO
-    elif i == 2:
+    elif argy == 2:
         OUT_SONG = arg
-    i += 1
+    argy += 1
 
 
 def get_track_id(query):
@@ -50,11 +50,8 @@ def get_sections(analytics):
     return sections
 
 
-def do_file(f, analytics):
+def to_song(f, sections):
     global RIGGED, RIGGED_COUNT
-    sections = get_sections(analytics)
-    if sections is None:
-        return None
     print sections
     chosen = 0
     for i in range(0, 5):
@@ -121,23 +118,26 @@ def read_music():
             continue
         analytics = get_analytics(track_id)
         key = get_key(analytics)
-        song = do_file(f, analytics)
+        sections = get_sections(analytics)
+        if sections is None:
+            continue
         if str(key) not in songs_by_key.keys():
             songs_by_key[str(key)] = []
-            print songs_by_key[str(key)]
         # else:
         #     # Else is temporary, we just care about the first 2 songs matching.
-        #     songs_by_key[str(key)].append(song)
+        #     songs_by_key[str(key)].append({"file": f, "sections": sections})
         #     songs_by_key = {str(key): songs_by_key[str(key)]}
         #     break
-        songs_by_key[str(key)].append(song)
+        songs_by_key[str(key)].append({"file": f, "sections": sections})
     
     while True:
         key = songs_by_key.keys()[randint(0, len(songs_by_key.keys()) - 1)]
+        shuffle(songs_by_key[str(key)])
         
         print "Mixing " + str(len(songs_by_key[str(key)])) + "songs"
         out = None
-        for song in songs_by_key[str(key)]:
+        for f_section in songs_by_key[str(key)]:
+            song = to_song(f_section["file"], f_section["sections"])
             if out is None:
                 out = song
             else:
@@ -150,7 +150,6 @@ def read_music():
 
 if __name__ == '__main__':
     try:
-        while True:
-            read_music()
+        read_music()
     except KeyboardInterrupt:
         print "Stopping..."

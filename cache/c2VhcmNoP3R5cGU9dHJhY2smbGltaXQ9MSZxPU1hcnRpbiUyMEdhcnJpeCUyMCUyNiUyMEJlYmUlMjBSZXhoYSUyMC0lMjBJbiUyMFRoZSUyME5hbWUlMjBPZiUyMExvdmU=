@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Martin+Garrix+%26+Bebe+Rexha+-+In+The+Name+Of+Love&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3bFu6MP7fuCl2NXlAecLvD"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3bFu6MP7fuCl2NXlAecLvD",
+        "id" : "3bFu6MP7fuCl2NXlAecLvD",
+        "images" : [ {
+          "height" : 600,
+          "url" : "https://i.scdn.co/image/70626833341d60464de86f1ce133181d00168c80",
+          "width" : 600
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2a33b63a7dd919090c6fdfd2f78bd1b33ee1efb2",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/fc00d7de96fe75553420c67dbd60afdd03853c47",
+          "width" : 64
+        } ],
+        "name" : "Die Immer Lacht Read - Sex Mix (Ohne Grund Electro Top 2016)",
+        "type" : "album",
+        "uri" : "spotify:album:3bFu6MP7fuCl2NXlAecLvD"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/10zwvkI1KBYYKbCruMGmhC"
+        },
+        "href" : "https://api.spotify.com/v1/artists/10zwvkI1KBYYKbCruMGmhC",
+        "id" : "10zwvkI1KBYYKbCruMGmhC",
+        "name" : "Farbwall",
+        "type" : "artist",
+        "uri" : "spotify:artist:10zwvkI1KBYYKbCruMGmhC"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 129250,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CH6541611966"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0P8l4MJ5ocU17jVncEfXbO"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0P8l4MJ5ocU17jVncEfXbO",
+      "id" : "0P8l4MJ5ocU17jVncEfXbO",
+      "name" : "In the Name of Love - Electro Mix Martin Garrix & Bebe Rexha Tribute",
+      "popularity" : 40,
+      "preview_url" : "https://p.scdn.co/mp3-preview/be4226f7c737ee62d732ec2504387ba65ea23406",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0P8l4MJ5ocU17jVncEfXbO"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Martin+Garrix+%26+Bebe+Rexha+-+In+The+Name+Of+Love&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 6
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=One+Dance+%28Ft.+Wizkid+%26+Kyla%29&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0hJVDtnuwOYkgTMSPaGGlS"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0hJVDtnuwOYkgTMSPaGGlS",
+        "id" : "0hJVDtnuwOYkgTMSPaGGlS",
+        "images" : [ {
+          "height" : 600,
+          "url" : "https://i.scdn.co/image/4f2a227ddd2cefd33f5be1959de7cd930cbde7d6",
+          "width" : 600
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/646696723a91e55ce14d941d3139ebaacf060d82",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/56fa9977250afc136711f6fff9a545514210c716",
+          "width" : 64
+        } ],
+        "name" : "Karaoke Picks Vol. 11",
+        "type" : "album",
+        "uri" : "spotify:album:0hJVDtnuwOYkgTMSPaGGlS"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/16DKwEFDumFEEUJWYSw21m"
+        },
+        "href" : "https://api.spotify.com/v1/artists/16DKwEFDumFEEUJWYSw21m",
+        "id" : "16DKwEFDumFEEUJWYSw21m",
+        "name" : "Hit The Button Karaoke",
+        "type" : "artist",
+        "uri" : "spotify:artist:16DKwEFDumFEEUJWYSw21m"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 175673,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBRBE0790933"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7Ccax9WSMusBEA8FxTDYWw"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7Ccax9WSMusBEA8FxTDYWw",
+      "id" : "7Ccax9WSMusBEA8FxTDYWw",
+      "name" : "One Dance (Originally Performed by Drake Ft. Wizkid & Kyla) - Karaoke Version",
+      "popularity" : 11,
+      "preview_url" : "https://p.scdn.co/mp3-preview/16d12c852606f175288cb468353d8afe9a953dab",
+      "track_number" : 13,
+      "type" : "track",
+      "uri" : "spotify:track:7Ccax9WSMusBEA8FxTDYWw"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=One+Dance+%28Ft.+Wizkid+%26+Kyla%29&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  }
+}

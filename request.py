@@ -3,7 +3,7 @@ import urllib2
 import os.path
 import base64
 
-AUTHORIZATION = "Bearer BQD0RgVM-tfajxQwsGaHsfWH5Hs8E7k0064iLbYTuQcQLR1EWybwZMlYUY2Ov9dFU9p6rhc5Ik15_zApKub5HL1q8TpvTieuV1Dv-Hkz2ldUGM0oCG0xNE-x3eFPBuApnPcCoj2TKCxY"
+AUTHORIZATION = "Bearer BQBfy8hAprSm4ccYKQnN9XyQQwXwForU9Fa-Qh647FW8V4-gUNCztIsVcRW7O_kwglxI1baUEz7wtVZNkR9EcVzTR_oddU7FqySmKL1Wt88iuKb7bQhsin5BrlkjZkO9nspbU6Egmaub"
 
 
 def send_request(end_path):

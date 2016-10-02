@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Coldplay+feat+beyonc%C3%A9+-+hymn+for+the+weekend&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3om38dTF1x4p6qQA99Tfek"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3om38dTF1x4p6qQA99Tfek",
+        "id" : "3om38dTF1x4p6qQA99Tfek",
+        "images" : [ {
+          "height" : 600,
+          "url" : "https://i.scdn.co/image/167b32d1d940f7fe4d53e50cbf012f64b1ded364",
+          "width" : 600
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/25af0d2087d2ef91c5a4afadace9a5e1d47f4bb7",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/144b6d4804af1f1528d07c8d93022af9ee1350be",
+          "width" : 64
+        } ],
+        "name" : "Hymn For The Weekend (Originally Performed by Coldplay feat. Beyoncé) [Instrumental Version]",
+        "type" : "album",
+        "uri" : "spotify:album:3om38dTF1x4p6qQA99Tfek"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2QQVBYuFqkbV1je2L9aV1Z"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2QQVBYuFqkbV1je2L9aV1Z",
+        "id" : "2QQVBYuFqkbV1je2L9aV1Z",
+        "name" : "Karaoke Pro",
+        "type" : "artist",
+        "uri" : "spotify:artist:2QQVBYuFqkbV1je2L9aV1Z"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 250322,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USLZJ1613237"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3BpZTWkLJZ0qvXUwGMsOA1"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3BpZTWkLJZ0qvXUwGMsOA1",
+      "id" : "3BpZTWkLJZ0qvXUwGMsOA1",
+      "name" : "Hymn For The Weekend (Originally Performed by Coldplay feat. Beyoncé) - Instrumental Version",
+      "popularity" : 15,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b9ed11ee6f30734543c5df7f39a05008f2dae793",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3BpZTWkLJZ0qvXUwGMsOA1"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}
