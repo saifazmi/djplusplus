@@ -5,6 +5,7 @@ from os.path import expanduser
 from random import shuffle, randint
 from pydub import AudioSegment, playback
 from request import send_request
+from tempfile import TemporaryFile, NamedTemporaryFile
 
 MUSIC_FOLDER = expanduser("~") + "/Music"
 
@@ -51,6 +52,27 @@ def do_file(f, analytics):
     return song
 
 
+def append(first, second, crossfade=100):
+    seg1, seg2 = AudioSegment._sync(first, second)
+
+    if not crossfade:
+        return seg1._spawn(seg1._data + seg2._data)
+
+    # xf = seg1[-crossfade:].fade(to_gain=-120, start=0, end=float('inf'))
+    xf = seg1[-crossfade:].fade_out(crossfade)
+    # xf *= seg2[:crossfade].fade(from_gain=-120, start=0, end=float('inf'))
+    xf *= seg2[:crossfade].fade_in(crossfade)
+
+    output = TemporaryFile()
+
+    output.write(seg1[:-crossfade]._data)
+    output.write(xf._data)
+    output.write(seg2[crossfade:]._data)
+
+    output.seek(0)
+    return seg1._spawn(data=output)
+
+
 def read_music():
     global MUSIC_FOLDER
     files = listdir(MUSIC_FOLDER)  # gives a list of all the files in the music folder
@@ -74,20 +96,19 @@ def read_music():
         songs_by_key[str(key)].append(song)
         
         i += 1
-        if i == 10:
+        if i == 20:
             break
     
     key = songs_by_key.keys()[randint(0, len(songs_by_key.keys()) - 1)]
     
-    print len(songs_by_key[str(key)])
+    print "Mixing " + str(len(songs_by_key[str(key)])) + "songs"
     out = None
     for song in songs_by_key[str(key)]:
         if out is None:
             out = song
         else:
-            out.append(song)
+            out = append(out, song, 5000)
     playback.play(out)
-
 
 if __name__ == '__main__':
     try:
