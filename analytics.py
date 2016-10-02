@@ -10,12 +10,14 @@ import sys
 
 MUSIC_FOLDER = expanduser("~") + "/Music"
 OUT_SONG = None
+RIGGED = False
+RIGGED_COUNT = 0
 
 # Command line argument stuff.
 i = 0
 for arg in sys.argv:
     if i == 1:
-        MUSIC_FOLDER = arg
+        MUSIC_FOLDER = expanduser("~") + "/Music"  # arg # TODO
     elif i == 2:
         OUT_SONG = arg
     i += 1
@@ -49,16 +51,23 @@ def get_sections(analytics):
 
 
 def do_file(f, analytics):
+    global RIGGED, RIGGED_COUNT
     sections = get_sections(analytics)
     if sections is None:
         return None
-    # sections = [{'duration': 17090, 'start': 0}, {'duration': 21356, 'start': 17090}, {'duration': 54395, 'start': 38446}, {'duration': 7199, 'start': 92842}, {'duration': 68318, 'start': 100041}, {'duration': 11558, 'start': 168359}, {'duration': 46519, 'start': 179918}, {'duration': 61686, 'start': 226438}, {'duration': 8007, 'start': 288124}]
     print sections
     chosen = 0
     for i in range(0, 5):
-        chosen = randint(0, len(sections) - 1)  # choose an index randomly to select a
+        chosen = randint(1, len(sections) - 2)  # choose an index randomly to select a
         if sections[chosen]["duration"] > 5000:
             break
+
+    if RIGGED:
+        if RIGGED_COUNT == 0:
+            RIGGED_COUNT = 1
+            sections[chosen] = {'duration': 17203, 'start': 72681}
+        else:
+            sections[chosen] = {'duration': 28482, 'start': 186533}
     print sections[chosen]
     full_f = MUSIC_FOLDER + "/" + f
     song = AudioSegment.from_mp3(full_f)
@@ -95,9 +104,12 @@ def append(first, second, crossfade=100, overlap=800):
 
 
 def read_music():
-    global MUSIC_FOLDER
+    global MUSIC_FOLDER, RIGGED
     files = listdir(MUSIC_FOLDER)  # gives a list of all the files in the music folder
     shuffle(files)  # shuffles the files within the list
+    if RIGGED:
+        files = ["Tristam - Frame of Mind.mp3", "Sia - Chandelier.mp3"]
+        # files[1] = "Linkin Park - Waiting for the End.mp3"
     songs_by_key = {}
     for f in files:
         if not re.match(".*\\.mp3", f):
@@ -113,30 +125,32 @@ def read_music():
         if str(key) not in songs_by_key.keys():
             songs_by_key[str(key)] = []
             print songs_by_key[str(key)]
-        else:
-            # Else is temporary, we just care about the first 2 songs matching.
-            songs_by_key[str(key)].append(song)
-            songs_by_key = {str(key): songs_by_key[str(key)]}
-            break
+        # else:
+        #     # Else is temporary, we just care about the first 2 songs matching.
+        #     songs_by_key[str(key)].append(song)
+        #     songs_by_key = {str(key): songs_by_key[str(key)]}
+        #     break
         songs_by_key[str(key)].append(song)
     
-    key = songs_by_key.keys()[randint(0, len(songs_by_key.keys()) - 1)]
-    
-    print "Mixing " + str(len(songs_by_key[str(key)])) + "songs"
-    out = None
-    for song in songs_by_key[str(key)]:
-        if out is None:
-            out = song
+    while True:
+        key = songs_by_key.keys()[randint(0, len(songs_by_key.keys()) - 1)]
+        
+        print "Mixing " + str(len(songs_by_key[str(key)])) + "songs"
+        out = None
+        for song in songs_by_key[str(key)]:
+            if out is None:
+                out = song
+            else:
+                out = append(out, song, 7000)
+        
+        if OUT_SONG is None:
+            playback.play(out)
         else:
-            out = append(out, song, 7000)
-    
-    if OUT_SONG is None:
-        playback.play(out)
-    else:
-        out.export(OUT_SONG)
+            out.export(OUT_SONG)
 
 if __name__ == '__main__':
     try:
-        read_music()
+        while True:
+            read_music()
     except KeyboardInterrupt:
         print "Stopping..."

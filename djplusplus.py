@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from analytics import read_music
 app = Flask(__name__)
 
 	
@@ -9,11 +10,8 @@ def index():
 
 @app.route('/submit')
 def submit():
-	if request.method == 'POST':
-		print "sibmitted"
-	else:
-		return abort(405) #method not allowed
-		
+	read_music()
+	return render_template('index.html')
 
 if __name__ == '__main__':
 	app.debug = True
