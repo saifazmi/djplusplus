@@ -36,6 +36,11 @@ def get_sections(analytics):
     sections = map(lambda section: dict(start=int(1000*section["start"]), duration=int(1000*section["duration"])), sections) # pls explain
     return sections
 
+def match_target_amplitude(sound, target_dBFS):
+    change_in_dBFS = target_dBFS - sound.dBFS
+    return sound.apply_gain(change_in_dBFS)
+# sound = AudioSegment.from_file(…)
+# normalized_sound = match_target_amplitude(sound, -20.0)
 
 def do_file(f, analytics):
     sections = get_sections(analytics)
