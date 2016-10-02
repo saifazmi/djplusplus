@@ -3,11 +3,22 @@ import re
 from os import listdir
 from os.path import expanduser
 from random import shuffle, randint
-from pydub import AudioSegment, playback
+from pydub import AudioSegment, playback, effects
 from request import send_request
-from tempfile import TemporaryFile, NamedTemporaryFile
+from tempfile import TemporaryFile
+import sys
 
 MUSIC_FOLDER = expanduser("~") + "/Music"
+OUT_SONG = None
+
+# Command line argument stuff.
+i = 0
+for arg in sys.argv:
+    if i == 1:
+        MUSIC_FOLDER = arg
+    elif i == 2:
+        OUT_SONG = arg
+    i += 1
 
 
 def get_track_id(query):
@@ -56,7 +67,7 @@ def do_file(f, analytics):
     return song
 
 
-def append(first, second, crossfade=100):
+def append(first, second, crossfade=100, overlap=800):
     seg1, seg2 = AudioSegment._sync(first, second)
     
     # match_target_amplitude(seg1, 0)
@@ -118,7 +129,11 @@ def read_music():
             out = song
         else:
             out = append(out, song, 7000)
-    playback.play(out)
+    
+    if OUT_SONG is None:
+        playback.play(out)
+    else:
+        out.export(OUT_SONG)
 
 if __name__ == '__main__':
     try:
