@@ -7,6 +7,14 @@ def index():
 	return render_template('index.html')
 
 
+@app.route('/submit')
+def submit():
+	if request.method == 'POST':
+		print "sibmitted"
+	else:
+		return abort(405) #method not allowed
+		
+
 if __name__ == '__main__':
 	app.debug = True
 	app.run()
