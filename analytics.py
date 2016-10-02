@@ -6,7 +6,7 @@ from os.path import expanduser
 from random import shuffle, randint
 from pydub import AudioSegment, playback
 
-AUTHORIZATION = "Bearer BQCQLoN5OwCLXkzSrQVNwA0B8wmJMYsLQ5qiIHw438kXQQyWR8M3YKaCinIiOevsaHuuuzcK30h6nW7_-1ejdh2MJNeKnbkhMM25GJVgzflxjHg6j9oU2uROlLc7DrlFBcAjUH-D8zfk"
+AUTHORIZATION = "Bearer BQBFthaRkE89gu4zE6429YQiJ-rHG6-F_JYQh_snV1LT57mSTWBR_MrmysyM3wVw5VD8hrX9dyHYomJHYknme94WlVBTBZLr9qfFfh4rdGeSeDJ-daez3ZDglYJNypQzZByBSIpKV6RE"
 MUSIC_FOLDER = expanduser("~") + "/Music"
 
 
@@ -23,7 +23,11 @@ def send_request(end_path):
 def get_track_id(query):
     query = query.replace(" ", "+")[:-4]
     print query
-    return send_request("search?type=track&limit=1&q=" + query)["tracks"]["items"][0]["id"]
+    items = send_request("search?type=track&limit=1&q=" + query)["tracks"]["items"]
+    if len(items) == 0:
+        print "No Spotify data for this."
+        return None
+    return items[0]["id"]
 
 
 def get_analytics(track_id):
@@ -32,6 +36,8 @@ def get_analytics(track_id):
 
 def get_sections(query):
     track_id = get_track_id(query)
+    if track_id is None:
+        return None
     analytics = get_analytics(track_id)
     sections = analytics["sections"]
     sections = map(lambda section: dict(start=int(1000*section["start"]), duration=int(1000*section["duration"])), sections)
@@ -40,6 +46,8 @@ def get_sections(query):
 
 def do_file(f):
     sections = get_sections(f)
+    if sections is None:
+        return None
     # sections = [{'duration': 17090, 'start': 0}, {'duration': 21356, 'start': 17090}, {'duration': 54395, 'start': 38446}, {'duration': 7199, 'start': 92842}, {'duration': 68318, 'start': 100041}, {'duration': 11558, 'start': 168359}, {'duration': 46519, 'start': 179918}, {'duration': 61686, 'start': 226438}, {'duration': 8007, 'start': 288124}]
     print sections
     chosen = randint(0, len(sections) - 1)
