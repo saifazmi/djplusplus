@@ -79,10 +79,10 @@ def append(first, second, crossfade=100, overlap=800):
     if not crossfade:
         return seg1._spawn(seg1._data + seg2._data)
 
-    # xf = seg1[-crossfade:].fade(to_gain=-120, start=0, end=float('inf'))
-    xf = seg1[-crossfade:].set_frame_rate(seg2.frame_rate).fade_out(crossfade)
-    # xf *= seg2[:crossfade].fade(from_gain=-120, start=0, end=float('inf'))
-    xf *= seg2[:crossfade].fade_in(crossfade)
+    frame_rate = int((seg1.frame_rate + seg2.frame_rate) / 2)
+    
+    xf = seg1[-crossfade:].set_frame_rate(frame_rate).fade_out(crossfade)
+    xf *= seg2[:crossfade].set_frame_rate(frame_rate).fade_in(crossfade)
     
     output = TemporaryFile()
 
