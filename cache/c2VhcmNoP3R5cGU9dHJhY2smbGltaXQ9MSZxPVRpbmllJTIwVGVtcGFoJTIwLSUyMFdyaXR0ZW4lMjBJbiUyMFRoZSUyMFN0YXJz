@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Tinie+Tempah+-+Written+In+The+Stars&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "GB", "IE" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2VWDJsLCtQcnzEP9o7Qvvx"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2VWDJsLCtQcnzEP9o7Qvvx",
+        "id" : "2VWDJsLCtQcnzEP9o7Qvvx",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/9250eabe801e9eb862d5118ff0ffc89f7a3dcc04",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/0df7a5d1ba38706efce204d8698839c45192e12e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/d4aa4f5662157f29ea268c39e19ac2d3c9120426",
+          "width" : 64
+        } ],
+        "name" : "Written In The Stars",
+        "type" : "album",
+        "uri" : "spotify:album:2VWDJsLCtQcnzEP9o7Qvvx"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0Tob4H0FLtEONHU1MjpUEp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0Tob4H0FLtEONHU1MjpUEp",
+        "id" : "0Tob4H0FLtEONHU1MjpUEp",
+        "name" : "Tinie Tempah",
+        "type" : "artist",
+        "uri" : "spotify:artist:0Tob4H0FLtEONHU1MjpUEp"
+      } ],
+      "available_markets" : [ "GB", "IE" ],
+      "disc_number" : 1,
+      "duration_ms" : 220280,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "GB7TP0900044"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3bF9INaPMwgsYPRuOqHDDR"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3bF9INaPMwgsYPRuOqHDDR",
+      "id" : "3bF9INaPMwgsYPRuOqHDDR",
+      "name" : "Written In The Stars - feat. Eric Turner",
+      "popularity" : 45,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b21b1ee4d3d39f8e05d5d37a160156f9aa821b75",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3bF9INaPMwgsYPRuOqHDDR"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Tinie+Tempah+-+Written+In+The+Stars&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 61
+  }
+}

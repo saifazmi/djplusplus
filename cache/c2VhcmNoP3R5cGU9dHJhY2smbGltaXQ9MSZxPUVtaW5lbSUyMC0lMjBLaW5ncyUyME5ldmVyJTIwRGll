@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Eminem+-+Kings+Never+Die&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5pqnv0aiizL6F4mmVkniKM"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5pqnv0aiizL6F4mmVkniKM",
+        "id" : "5pqnv0aiizL6F4mmVkniKM",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/006c9c37bcc71843f2096c0049198eb1b1b989d8",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/1b35dd54abee06b0c774f1ba8995a4a55243772b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/53067b378846e29b07531ef63c10bb371aab51be",
+          "width" : 64
+        } ],
+        "name" : "Southpaw (Music From And Inspired By The Motion Picture)",
+        "type" : "album",
+        "uri" : "spotify:album:5pqnv0aiizL6F4mmVkniKM"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+        "id" : "7dGJo4pcD2V6oG8kP0tJRR",
+        "name" : "Eminem",
+        "type" : "artist",
+        "uri" : "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4yiQZ8tQPux8cPriYMWUFP"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4yiQZ8tQPux8cPriYMWUFP",
+        "id" : "4yiQZ8tQPux8cPriYMWUFP",
+        "name" : "Gwen Stefani",
+        "type" : "artist",
+        "uri" : "spotify:artist:4yiQZ8tQPux8cPriYMWUFP"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 296132,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USUM71509167"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/33aHjpcpGYdPC0huGsieuL"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/33aHjpcpGYdPC0huGsieuL",
+      "id" : "33aHjpcpGYdPC0huGsieuL",
+      "name" : "Kings Never Die",
+      "popularity" : 58,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b37f5bce42bc731149ab6eaf9561e51d2b1ace1b",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:33aHjpcpGYdPC0huGsieuL"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Eminem+-+Kings+Never+Die&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 13
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Christina+Perri+-+A+Thousand+Years&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AT", "AU", "BE", "BG", "CA", "CH", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "GB", "GR", "HU", "IE", "IT", "JP", "LT", "LV", "MT", "NL", "NO", "NZ", "PL", "PT", "SE", "SK", "TR" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2lkbTVYUYHXoXt17WXIAVc"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2lkbTVYUYHXoXt17WXIAVc",
+        "id" : "2lkbTVYUYHXoXt17WXIAVc",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4aaa9fae84be9e79c1a58845784441d65327bcba",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2aeebc0c478bfe46ad5d7622f5d8863da2c29b6f",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/2df0e951955b8b24b88f28f4f243e53cee7fa13e",
+          "width" : 64
+        } ],
+        "name" : "The Twilight Saga: Breaking Dawn - Part 1 (Original Motion Picture Soundtrack [Deluxe])",
+        "type" : "album",
+        "uri" : "spotify:album:2lkbTVYUYHXoXt17WXIAVc"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7H55rcKCfwqkyDFH9wpKM6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7H55rcKCfwqkyDFH9wpKM6",
+        "id" : "7H55rcKCfwqkyDFH9wpKM6",
+        "name" : "Christina Perri",
+        "type" : "artist",
+        "uri" : "spotify:artist:7H55rcKCfwqkyDFH9wpKM6"
+      } ],
+      "available_markets" : [ "AT", "AU", "BE", "BG", "CA", "CH", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "GB", "GR", "HU", "IE", "IT", "JP", "LT", "LV", "MT", "NL", "NO", "NZ", "PL", "PT", "SE", "SK", "TR" ],
+      "disc_number" : 1,
+      "duration_ms" : 285120,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USAT21102141"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6z5Yh7kOKeLjqIsNdokIpU"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6z5Yh7kOKeLjqIsNdokIpU",
+      "id" : "6z5Yh7kOKeLjqIsNdokIpU",
+      "name" : "A Thousand Years",
+      "popularity" : 67,
+      "preview_url" : "https://p.scdn.co/mp3-preview/9e1ba149540ddccd2d52766c788b06307536260d",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:6z5Yh7kOKeLjqIsNdokIpU"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Christina+Perri+-+A+Thousand+Years&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 182
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=One+Direction+-+Drag+Me+Down&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "ES", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LU", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7LnU0hAOYe9aq91PCKMI7A"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7LnU0hAOYe9aq91PCKMI7A",
+        "id" : "7LnU0hAOYe9aq91PCKMI7A",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/bd6dffbcab8963ee5a2b15b58f861918caaa6d43",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/dd5fc5228adcd7049373e3c925259f6a4a5978b0",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/286f561d1e2e97f0de82dae9f09e51af8161d3b5",
+          "width" : 64
+        } ],
+        "name" : "Drag Me Down",
+        "type" : "album",
+        "uri" : "spotify:album:7LnU0hAOYe9aq91PCKMI7A"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4AK6F7OLvEQ5QYCBNiQWHq",
+        "id" : "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name" : "One Direction",
+        "type" : "artist",
+        "uri" : "spotify:artist:4AK6F7OLvEQ5QYCBNiQWHq"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "ES", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LU", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 192106,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBHMU1500070"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/70OTIpw8x8UXUsuCHW9i1i"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/70OTIpw8x8UXUsuCHW9i1i",
+      "id" : "70OTIpw8x8UXUsuCHW9i1i",
+      "name" : "Drag Me Down",
+      "popularity" : 69,
+      "preview_url" : "https://p.scdn.co/mp3-preview/4aa177e8654638553a90eafb7eafc0806441f112",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:70OTIpw8x8UXUsuCHW9i1i"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=One+Direction+-+Drag+Me+Down&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 72
+  }
+}

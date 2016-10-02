@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Ones+and+Zeros+-+Honesty&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2HCZeqGQu3CMYsnluG2Jx7"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2HCZeqGQu3CMYsnluG2Jx7",
+        "id" : "2HCZeqGQu3CMYsnluG2Jx7",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/d0c2d88b65d24af30d1eb77fa08a0bca93e3fc4a",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/f98c07fc34a2ffaac73ee94fae5356836b36950a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/51be43fb168d19c36acb3174b21bf669d1c82254",
+          "width" : 64
+        } ],
+        "name" : "Infinality",
+        "type" : "album",
+        "uri" : "spotify:album:2HCZeqGQu3CMYsnluG2Jx7"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7m2rtjk2SHfSPeXEnVn3VU"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7m2rtjk2SHfSPeXEnVn3VU",
+        "id" : "7m2rtjk2SHfSPeXEnVn3VU",
+        "name" : "Ones And Zeros",
+        "type" : "artist",
+        "uri" : "spotify:artist:7m2rtjk2SHfSPeXEnVn3VU"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 424052,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USA2P0777425"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0IJ0CEA91hp5Kp78apyOGK"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0IJ0CEA91hp5Kp78apyOGK",
+      "id" : "0IJ0CEA91hp5Kp78apyOGK",
+      "name" : "Honesty",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/8d43e3849f1ca5d00b15652397cdaaeb9de90dbc",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:0IJ0CEA91hp5Kp78apyOGK"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=REM+-+Shiny+Happy+People&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/321LzecEFfm8HJ1dzyYted"
+        },
+        "href" : "https://api.spotify.com/v1/albums/321LzecEFfm8HJ1dzyYted",
+        "id" : "321LzecEFfm8HJ1dzyYted",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/bc0f6cac0fd014dcb1a4f38f2189a87d416d98ea",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/46271a7c8be275ca1b68cc266bb3da9b2e119c5e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c13a3ac151f5c61770969d29c9e086ef56f27c6c",
+          "width" : 64
+        } ],
+        "name" : "Out Of Time",
+        "type" : "album",
+        "uri" : "spotify:album:321LzecEFfm8HJ1dzyYted"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4KWTAlx2RvbpseOGMEmROg"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4KWTAlx2RvbpseOGMEmROg",
+        "id" : "4KWTAlx2RvbpseOGMEmROg",
+        "name" : "R.E.M.",
+        "type" : "artist",
+        "uri" : "spotify:artist:4KWTAlx2RvbpseOGMEmROg"
+      } ],
+      "available_markets" : [ "AD", "AR", "AU", "BE", "BG", "BO", "BR", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 226200,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWB19901525"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/23tsETSANkx1FqiW0GkQD5"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/23tsETSANkx1FqiW0GkQD5",
+      "id" : "23tsETSANkx1FqiW0GkQD5",
+      "name" : "Shiny Happy People",
+      "popularity" : 59,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d6496a6a856244e4df03216b5e90cf3db26bc37d",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:23tsETSANkx1FqiW0GkQD5"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=REM+-+Shiny+Happy+People&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 130
+  }
+}

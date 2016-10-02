@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Bastion+-+Build+That+Wall+%28Zia%27s+Theme%29&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2r4a3PREYIRF2QdbcPnrEO"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2r4a3PREYIRF2QdbcPnrEO",
+        "id" : "2r4a3PREYIRF2QdbcPnrEO",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/9019c186479a647cc555401463653e17f7c7445e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/7189b10b8fc71f1fc900dd03ab5ed8d691248ef8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/2ede3f7cf8dbb62155dd40a74c4037a0054cf8e8",
+          "width" : 64
+        } ],
+        "name" : "Bastion Original Soundtrack",
+        "type" : "album",
+        "uri" : "spotify:album:2r4a3PREYIRF2QdbcPnrEO"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0ZMWrgLff357yxLyEU77a1"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0ZMWrgLff357yxLyEU77a1",
+        "id" : "0ZMWrgLff357yxLyEU77a1",
+        "name" : "Darren Korb",
+        "type" : "artist",
+        "uri" : "spotify:artist:0ZMWrgLff357yxLyEU77a1"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 165016,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCABA1109345"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5DutiJxznQmcV5a5a1zfRW"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5DutiJxznQmcV5a5a1zfRW",
+      "id" : "5DutiJxznQmcV5a5a1zfRW",
+      "name" : "Build That Wall (Zia's Theme)",
+      "popularity" : 41,
+      "preview_url" : "https://p.scdn.co/mp3-preview/4215cee7b9ddd8379f315a21e4157ac329cfd311",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:5DutiJxznQmcV5a5a1zfRW"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

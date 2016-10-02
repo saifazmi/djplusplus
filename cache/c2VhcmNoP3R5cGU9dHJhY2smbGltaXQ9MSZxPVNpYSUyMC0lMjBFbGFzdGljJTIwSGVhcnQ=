@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Sia+-+Elastic+Heart&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3xFSl9lIRaYXIYkIn3OIl9"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3xFSl9lIRaYXIYkIn3OIl9",
+        "id" : "3xFSl9lIRaYXIYkIn3OIl9",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/03d97de27e99fd8099506ea172531cea0da59654",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/58595889bbd362182cd3ef5c3633e1c56823d859",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/b8b3036b13b0db9108aeca2b8b779da317973c16",
+          "width" : 64
+        } ],
+        "name" : "1000 Forms Of Fear",
+        "type" : "album",
+        "uri" : "spotify:album:3xFSl9lIRaYXIYkIn3OIl9"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5WUlDfRSoLAfcVSX1WnrxN"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5WUlDfRSoLAfcVSX1WnrxN",
+        "id" : "5WUlDfRSoLAfcVSX1WnrxN",
+        "name" : "Sia",
+        "type" : "artist",
+        "uri" : "spotify:artist:5WUlDfRSoLAfcVSX1WnrxN"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 257200,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USRC11400976"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6kwAbEjseqBob48jCus7Sz"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6kwAbEjseqBob48jCus7Sz",
+      "id" : "6kwAbEjseqBob48jCus7Sz",
+      "name" : "Elastic Heart",
+      "popularity" : 77,
+      "preview_url" : "https://p.scdn.co/mp3-preview/210b2f8ae1a4c2ecd40673fc3a0095159d821d62",
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:6kwAbEjseqBob48jCus7Sz"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Sia+-+Elastic+Heart&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 129
+  }
+}

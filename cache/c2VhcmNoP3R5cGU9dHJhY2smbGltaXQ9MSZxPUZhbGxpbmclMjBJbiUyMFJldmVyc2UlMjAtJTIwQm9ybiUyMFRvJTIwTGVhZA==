@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Falling+In+Reverse+-+Born+To+Lead&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0KgRZOlXJssqaxzebmdf1w"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0KgRZOlXJssqaxzebmdf1w",
+        "id" : "0KgRZOlXJssqaxzebmdf1w",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/31ee0af02191877602e5579f9b87fca5b9ad1884",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d0754958fa4e66f3aad76a41fde3fe0f86e4d24b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/b0795005abd1ebda9071c0d1f829003e9e7e6868",
+          "width" : 64
+        } ],
+        "name" : "Fashionably Late (Deluxe Edition)",
+        "type" : "album",
+        "uri" : "spotify:album:0KgRZOlXJssqaxzebmdf1w"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2CmaKO2zEGJ1NWpS1yfVGz"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2CmaKO2zEGJ1NWpS1yfVGz",
+        "id" : "2CmaKO2zEGJ1NWpS1yfVGz",
+        "name" : "Falling In Reverse",
+        "type" : "artist",
+        "uri" : "spotify:artist:2CmaKO2zEGJ1NWpS1yfVGz"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 319580,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEP41310006"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7tSeCwxEuv5kQWbA3yBHMy"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7tSeCwxEuv5kQWbA3yBHMy",
+      "id" : "7tSeCwxEuv5kQWbA3yBHMy",
+      "name" : "Born to Lead",
+      "popularity" : 45,
+      "preview_url" : "https://p.scdn.co/mp3-preview/6a952a0b90849d463adb87bd8555a67224452b4e",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:7tSeCwxEuv5kQWbA3yBHMy"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

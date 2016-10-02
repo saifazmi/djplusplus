@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Syd+Matters+-+To+All+of+you&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "GB" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/47jqlEdKbw5qSmVvrCkQqX"
+        },
+        "href" : "https://api.spotify.com/v1/albums/47jqlEdKbw5qSmVvrCkQqX",
+        "id" : "47jqlEdKbw5qSmVvrCkQqX",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/bda141262bb9dabe6a3c2690c0d8a179fa088622",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ecf804f472950b445fd063b1a3b9bf9f0a73a97d",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e9ae06ba8b4d3e319f73937a660453fa0f5ac1b6",
+          "width" : 64
+        } ],
+        "name" : "Someday We Will Foresee Obstacles [Edition 2008]",
+        "type" : "album",
+        "uri" : "spotify:album:47jqlEdKbw5qSmVvrCkQqX"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4kDmwaDsfY9hcvz7K0otLJ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4kDmwaDsfY9hcvz7K0otLJ",
+        "id" : "4kDmwaDsfY9hcvz7K0otLJ",
+        "name" : "Syd Matters",
+        "type" : "artist",
+        "uri" : "spotify:artist:4kDmwaDsfY9hcvz7K0otLJ"
+      } ],
+      "available_markets" : [ "GB" ],
+      "disc_number" : 1,
+      "duration_ms" : 283320,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "FRP090400170"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3XPBHUOnYcrxiWN1ZZW95N"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3XPBHUOnYcrxiWN1ZZW95N",
+      "id" : "3XPBHUOnYcrxiWN1ZZW95N",
+      "name" : "To All of You",
+      "popularity" : 23,
+      "preview_url" : "https://p.scdn.co/mp3-preview/9f5bc7cc3814e7aa490bc80969998ae83ab7ebcf",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:3XPBHUOnYcrxiWN1ZZW95N"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Syd+Matters+-+To+All+of+you&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 3
+  }
+}

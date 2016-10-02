@@ -1,0 +1,83 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Dr+Dre+-+I+Need+A+Doctor&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2IS597VgU3PdBGeMpJOZ1K"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2IS597VgU3PdBGeMpJOZ1K",
+        "id" : "2IS597VgU3PdBGeMpJOZ1K",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/3d7ceec20a67ba9a2cad127f5fa9edffa1be6b5a",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/bbf9ae4626e3e03609d0b512ad01dba5f8146f2b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e225c0f9d153b018096f8c4af6a46a8c902d767d",
+          "width" : 64
+        } ],
+        "name" : "I Need A Doctor",
+        "type" : "album",
+        "uri" : "spotify:album:2IS597VgU3PdBGeMpJOZ1K"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6DPYiyq5kWVQS4RGwxzPC7"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6DPYiyq5kWVQS4RGwxzPC7",
+        "id" : "6DPYiyq5kWVQS4RGwxzPC7",
+        "name" : "Dr. Dre",
+        "type" : "artist",
+        "uri" : "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+        "id" : "7dGJo4pcD2V6oG8kP0tJRR",
+        "name" : "Eminem",
+        "type" : "artist",
+        "uri" : "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4utLUGcTvOJFr6aqIJtYWV"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4utLUGcTvOJFr6aqIJtYWV",
+        "id" : "4utLUGcTvOJFr6aqIJtYWV",
+        "name" : "Skylar Grey",
+        "type" : "artist",
+        "uri" : "spotify:artist:4utLUGcTvOJFr6aqIJtYWV"
+      } ],
+      "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW" ],
+      "disc_number" : 1,
+      "duration_ms" : 283733,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USUM71029031"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1aUT4xl8iiYNr6emik4qTB"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1aUT4xl8iiYNr6emik4qTB",
+      "id" : "1aUT4xl8iiYNr6emik4qTB",
+      "name" : "I Need A Doctor",
+      "popularity" : 62,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c182dd780990e7cf3221dd396b4c6ab02df954e8",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1aUT4xl8iiYNr6emik4qTB"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Dr+Dre+-+I+Need+A+Doctor&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 102
+  }
+}

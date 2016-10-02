@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Skrillex+-+Scary+Monsters+And+Nice+Sprites&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6HbNEBza64W10MQxUFq6QL"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6HbNEBza64W10MQxUFq6QL",
+        "id" : "6HbNEBza64W10MQxUFq6QL",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/490a4e8d8fbe39a303b7aec584fd46918b4f0554",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ec6dbaa16d12c43c2e379b0370d62ead8a4bae61",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/57f269fada860c5db3711912c3c581d07e4ed65d",
+          "width" : 64
+        } ],
+        "name" : "Scary Monsters and Nice Sprites (Deluxe Tour Edition)",
+        "type" : "album",
+        "uri" : "spotify:album:6HbNEBza64W10MQxUFq6QL"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5he5w2lnU9x7JFhnwcekXX"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX",
+        "id" : "5he5w2lnU9x7JFhnwcekXX",
+        "name" : "Skrillex",
+        "type" : "artist",
+        "uri" : "spotify:artist:5he5w2lnU9x7JFhnwcekXX"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 243353,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBTDG1000196"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5q8oybjZelukF4h0CzSUN9"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5q8oybjZelukF4h0CzSUN9",
+      "id" : "5q8oybjZelukF4h0CzSUN9",
+      "name" : "Scary Monsters And Nice Sprites",
+      "popularity" : 56,
+      "preview_url" : "https://p.scdn.co/mp3-preview/fd1cb014b2eb27e13502c1fb2ef3514dbe713a03",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:5q8oybjZelukF4h0CzSUN9"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Skrillex+-+Scary+Monsters+And+Nice+Sprites&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 36
+  }
+}

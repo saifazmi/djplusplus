@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Paramore+-+The+Only+Exception&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AT", "AU", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE", "FI", "GB", "GR", "HU", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MT", "MY", "NL", "NO", "NZ", "PL", "PT", "SE", "SG", "SK", "TR" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3CaQTJU2Cpx7GXTgenmb2r"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3CaQTJU2Cpx7GXTgenmb2r",
+        "id" : "3CaQTJU2Cpx7GXTgenmb2r",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4f0396064baeb8a83ea109cfd4239781a43555eb",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/e82ddc597bf14ee9a380006738a1bc6e340b08f6",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ea0cccec32f28020dc8bff1908ec7aad0a300d78",
+          "width" : 64
+        } ],
+        "name" : "brand new eyes",
+        "type" : "album",
+        "uri" : "spotify:album:3CaQTJU2Cpx7GXTgenmb2r"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF"
+        },
+        "href" : "https://api.spotify.com/v1/artists/74XFHRwlV6OrjEM0A2NCMF",
+        "id" : "74XFHRwlV6OrjEM0A2NCMF",
+        "name" : "Paramore",
+        "type" : "artist",
+        "uri" : "spotify:artist:74XFHRwlV6OrjEM0A2NCMF"
+      } ],
+      "available_markets" : [ "AT", "AU", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE", "FI", "GB", "GR", "HU", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MT", "MY", "NL", "NO", "NZ", "PL", "PT", "SE", "SG", "SK", "TR" ],
+      "disc_number" : 1,
+      "duration_ms" : 267653,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USAT20902323"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3ZHfX6kbiY7JVsB63lLOLu"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3ZHfX6kbiY7JVsB63lLOLu",
+      "id" : "3ZHfX6kbiY7JVsB63lLOLu",
+      "name" : "The Only Exception",
+      "popularity" : 53,
+      "preview_url" : "https://p.scdn.co/mp3-preview/5eaa3e358350b45aa0d84fd72626d2a12d1ed6be",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:3ZHfX6kbiY7JVsB63lLOLu"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Paramore+-+The+Only+Exception&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 131
+  }
+}

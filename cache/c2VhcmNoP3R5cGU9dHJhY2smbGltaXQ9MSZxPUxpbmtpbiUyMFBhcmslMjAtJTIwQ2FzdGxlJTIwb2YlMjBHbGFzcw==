@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Linkin+Park+-+Castle+of+Glass&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4XHIjbhjRmqWlosjj5rqSI"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4XHIjbhjRmqWlosjj5rqSI",
+        "id" : "4XHIjbhjRmqWlosjj5rqSI",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/967661595be2ffdd741e8e7c72cbd975dfc263b5",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/1c6ab5f28338c09671ba8f0d71989ec2f22a9d23",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/85957b735b208f2f33808007a747234279519cf1",
+          "width" : 64
+        } ],
+        "name" : "LIVING THINGS",
+        "type" : "album",
+        "uri" : "spotify:album:4XHIjbhjRmqWlosjj5rqSI"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6XyY86QOPPrYVGvF9ch6wz",
+        "id" : "6XyY86QOPPrYVGvF9ch6wz",
+        "name" : "Linkin Park",
+        "type" : "artist",
+        "uri" : "spotify:artist:6XyY86QOPPrYVGvF9ch6wz"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 205400,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWB11200795"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1r1fPuhj9H4VdXr7OK6FL5"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1r1fPuhj9H4VdXr7OK6FL5",
+      "id" : "1r1fPuhj9H4VdXr7OK6FL5",
+      "name" : "CASTLE OF GLASS",
+      "popularity" : 66,
+      "preview_url" : "https://p.scdn.co/mp3-preview/48fcbc7609d8fcfcd10ebd3d262ef36d8cbfa07c",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:1r1fPuhj9H4VdXr7OK6FL5"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Linkin+Park+-+Castle+of+Glass&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 38
+  }
+}

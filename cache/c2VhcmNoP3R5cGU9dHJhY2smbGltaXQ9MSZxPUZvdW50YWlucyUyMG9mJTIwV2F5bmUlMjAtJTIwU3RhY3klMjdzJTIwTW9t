@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Fountains+of+Wayne+-+Stacy%27s+Mom&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6TZp52tXShLQbq8yNMxqNT"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6TZp52tXShLQbq8yNMxqNT",
+        "id" : "6TZp52tXShLQbq8yNMxqNT",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/dae8ad17a47a3563b770beb3a1b85fce0e7b6089",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6d2a34f6715f5e1c1088c32827ca00b950efab11",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/7cb61187a3444c6e55c0886cf740960b3688b41e",
+          "width" : 64
+        } ],
+        "name" : "Welcome Interstate Managers",
+        "type" : "album",
+        "uri" : "spotify:album:6TZp52tXShLQbq8yNMxqNT"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1pgtr4nhBQjp9oCUBPyYWh"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1pgtr4nhBQjp9oCUBPyYWh",
+        "id" : "1pgtr4nhBQjp9oCUBPyYWh",
+        "name" : "Fountains Of Wayne",
+        "type" : "artist",
+        "uri" : "spotify:artist:1pgtr4nhBQjp9oCUBPyYWh"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 197986,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USESC0300016"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/27L8sESb3KR79asDUBu8nW"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/27L8sESb3KR79asDUBu8nW",
+      "id" : "27L8sESb3KR79asDUBu8nW",
+      "name" : "Stacy's Mom",
+      "popularity" : 67,
+      "preview_url" : "https://p.scdn.co/mp3-preview/20943ef75faadd4c0a78254f3570662b2328a6ca",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:27L8sESb3KR79asDUBu8nW"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Fountains+of+Wayne+-+Stacy%27s+Mom&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 42
+  }
+}

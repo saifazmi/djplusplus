@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Tristam+-+Frame+of+Mind&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0G81TQmABHFW7GfWsYGdAP"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0G81TQmABHFW7GfWsYGdAP",
+        "id" : "0G81TQmABHFW7GfWsYGdAP",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/b0a3bd9e12882e2062c630f964e788f8b518ae2f",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/085e221e7c978160b633ac69558371c91d33f4cc",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cd143322aa53b2d6e6f1facd6a2a7d5115898c8e",
+          "width" : 64
+        } ],
+        "name" : "Frame of Mind",
+        "type" : "album",
+        "uri" : "spotify:album:0G81TQmABHFW7GfWsYGdAP"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/28Ky95tmlHktB96DBUoB0g"
+        },
+        "href" : "https://api.spotify.com/v1/artists/28Ky95tmlHktB96DBUoB0g",
+        "id" : "28Ky95tmlHktB96DBUoB0g",
+        "name" : "Tristam",
+        "type" : "artist",
+        "uri" : "spotify:artist:28Ky95tmlHktB96DBUoB0g"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1SFSz2SewAsgPeFvGmAouI"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1SFSz2SewAsgPeFvGmAouI",
+        "id" : "1SFSz2SewAsgPeFvGmAouI",
+        "name" : "Braken",
+        "type" : "artist",
+        "uri" : "spotify:artist:1SFSz2SewAsgPeFvGmAouI"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 274285,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21000357"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1CRESO4AuKm5B5Lqodk7t9"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1CRESO4AuKm5B5Lqodk7t9",
+      "id" : "1CRESO4AuKm5B5Lqodk7t9",
+      "name" : "Frame of Mind",
+      "popularity" : 58,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b98df5494ffc58a50fe8e8eb2e8a94d1942f9c35",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1CRESO4AuKm5B5Lqodk7t9"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Tristam+-+Frame+of+Mind&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  }
+}

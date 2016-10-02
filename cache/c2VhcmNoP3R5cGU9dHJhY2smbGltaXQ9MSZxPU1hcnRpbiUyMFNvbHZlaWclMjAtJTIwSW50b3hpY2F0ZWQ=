@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Martin+Solveig+-+Intoxicated&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "GB", "IE" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6Xc1wHzennkfpGs7c5ZDUr"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6Xc1wHzennkfpGs7c5ZDUr",
+        "id" : "6Xc1wHzennkfpGs7c5ZDUr",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/05c0bdff06e7299882c1ac69cd3439ebaa5afda8",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/dd967a9273f1eea0d4332f277ef07ebf1dcbef8d",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/8d266a86d2bfeb562bc49940d074680a82d259d7",
+          "width" : 64
+        } ],
+        "name" : "Intoxicated (Radio Edit)",
+        "type" : "album",
+        "uri" : "spotify:album:6Xc1wHzennkfpGs7c5ZDUr"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1bj5GrcLom5gZFF5t949Xl"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1bj5GrcLom5gZFF5t949Xl",
+        "id" : "1bj5GrcLom5gZFF5t949Xl",
+        "name" : "Martin Solveig",
+        "type" : "artist",
+        "uri" : "spotify:artist:1bj5GrcLom5gZFF5t949Xl"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6M7RdR9ZP52h2mfNLmiHtU"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6M7RdR9ZP52h2mfNLmiHtU",
+        "id" : "6M7RdR9ZP52h2mfNLmiHtU",
+        "name" : "GTA",
+        "type" : "artist",
+        "uri" : "spotify:artist:6M7RdR9ZP52h2mfNLmiHtU"
+      } ],
+      "available_markets" : [ "GB", "IE" ],
+      "disc_number" : 1,
+      "duration_ms" : 160560,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "UK98Q1500003"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5ZKqR1beprJ3wa6wGUwTWH"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5ZKqR1beprJ3wa6wGUwTWH",
+      "id" : "5ZKqR1beprJ3wa6wGUwTWH",
+      "name" : "Intoxicated - Radio Edit",
+      "popularity" : 58,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a831708801b38f8b9b742c6c98d488b0f6e03748",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:5ZKqR1beprJ3wa6wGUwTWH"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Martin+Solveig+-+Intoxicated&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 31
+  }
+}

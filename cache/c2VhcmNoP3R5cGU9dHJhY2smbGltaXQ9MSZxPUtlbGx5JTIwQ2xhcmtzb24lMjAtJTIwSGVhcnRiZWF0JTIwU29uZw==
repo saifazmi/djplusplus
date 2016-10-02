@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Kelly+Clarkson+-+Heartbeat+Song&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2puALR81qCmKmbOyuHAI94"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2puALR81qCmKmbOyuHAI94",
+        "id" : "2puALR81qCmKmbOyuHAI94",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/aff5ee8c1778c2749f16ab27c9049e5f5868242e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/c4a47cab0d49c3bcfecba5246b8127f3e06aed83",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/fe18c6be808bc9afcd45f67e3419859dcd8647e0",
+          "width" : 64
+        } ],
+        "name" : "Piece By Piece (Deluxe Version)",
+        "type" : "album",
+        "uri" : "spotify:album:2puALR81qCmKmbOyuHAI94"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3BmGtnKgCSGYIUhmivXKWX"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3BmGtnKgCSGYIUhmivXKWX",
+        "id" : "3BmGtnKgCSGYIUhmivXKWX",
+        "name" : "Kelly Clarkson",
+        "type" : "artist",
+        "uri" : "spotify:artist:3BmGtnKgCSGYIUhmivXKWX"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 198733,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBCTA1400065"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4WGgAdWVeF0ExmWow9R9XY"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4WGgAdWVeF0ExmWow9R9XY",
+      "id" : "4WGgAdWVeF0ExmWow9R9XY",
+      "name" : "Heartbeat Song",
+      "popularity" : 50,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a761f26eeb2cc25bd721368eeac08d53f1ca89c5",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:4WGgAdWVeF0ExmWow9R9XY"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Kelly+Clarkson+-+Heartbeat+Song&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 83
+  }
+}

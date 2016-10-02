@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Hollywood+Undead+-+City&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/43QqMzEZ2C5TRN0nUzyVRX"
+        },
+        "href" : "https://api.spotify.com/v1/albums/43QqMzEZ2C5TRN0nUzyVRX",
+        "id" : "43QqMzEZ2C5TRN0nUzyVRX",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/b81898f1b50b0ab608f9abeab9f83c83b62ebdb6",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d3800ed0e266efa41f10870f6a3ab7cf31571851",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a763409bd3c9d7c0a5b90052eabccc58d757e598",
+          "width" : 64
+        } ],
+        "name" : "Swan Songs (Collector’s Edition)",
+        "type" : "album",
+        "uri" : "spotify:album:43QqMzEZ2C5TRN0nUzyVRX"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0CEFCo8288kQU7mJi25s6E"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0CEFCo8288kQU7mJi25s6E",
+        "id" : "0CEFCo8288kQU7mJi25s6E",
+        "name" : "Hollywood Undead",
+        "type" : "artist",
+        "uri" : "spotify:artist:0CEFCo8288kQU7mJi25s6E"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 214040,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USUM70826488"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2vj1N1MYQi5XVtmcpfqIOy"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2vj1N1MYQi5XVtmcpfqIOy",
+      "id" : "2vj1N1MYQi5XVtmcpfqIOy",
+      "name" : "City",
+      "popularity" : 39,
+      "preview_url" : "https://p.scdn.co/mp3-preview/efc3751c16b050f4fb2d6b718a56ffabc971a39c",
+      "track_number" : 11,
+      "type" : "track",
+      "uri" : "spotify:track:2vj1N1MYQi5XVtmcpfqIOy"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Hollywood+Undead+-+City&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 5
+  }
+}

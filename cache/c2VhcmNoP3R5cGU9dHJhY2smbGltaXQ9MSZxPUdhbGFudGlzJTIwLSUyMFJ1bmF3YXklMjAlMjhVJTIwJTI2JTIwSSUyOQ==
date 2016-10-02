@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Galantis+-+Runaway+%28U+%26+I%29&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "GB", "IE" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5iLpRq7zbCArBm2Gi0pRIw"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5iLpRq7zbCArBm2Gi0pRIw",
+        "id" : "5iLpRq7zbCArBm2Gi0pRIw",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/95659045e6271cd2ca07e0ba1176ad6ce24d7ce7",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d87d7b97348c80ef8dbd46d36c12f4836381dd61",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/27253560de890dfcd51661fba7e0ab8e92580091",
+          "width" : 64
+        } ],
+        "name" : "Pharmacy",
+        "type" : "album",
+        "uri" : "spotify:album:5iLpRq7zbCArBm2Gi0pRIw"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4sTQVOfp9vEMCemLw50sbu"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4sTQVOfp9vEMCemLw50sbu",
+        "id" : "4sTQVOfp9vEMCemLw50sbu",
+        "name" : "Galantis",
+        "type" : "artist",
+        "uri" : "spotify:artist:4sTQVOfp9vEMCemLw50sbu"
+      } ],
+      "available_markets" : [ "GB", "IE" ],
+      "disc_number" : 1,
+      "duration_ms" : 227073,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USAT21404265"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6Awg3vdlBZnLnVWBcyG0vW"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6Awg3vdlBZnLnVWBcyG0vW",
+      "id" : "6Awg3vdlBZnLnVWBcyG0vW",
+      "name" : "Runaway (U & I)",
+      "popularity" : 60,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c1024d02ec15b93fe218692fb9ad23c5bad3e1aa",
+      "track_number" : 4,
+      "type" : "track",
+      "uri" : "spotify:track:6Awg3vdlBZnLnVWBcyG0vW"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Galantis+-+Runaway+%28U+%26+I%29&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 65
+  }
+}

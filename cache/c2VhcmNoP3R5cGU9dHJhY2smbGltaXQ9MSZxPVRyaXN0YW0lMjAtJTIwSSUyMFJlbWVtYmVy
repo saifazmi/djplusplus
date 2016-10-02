@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Tristam+-+I+Remember&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "compilation",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7dArkHuO5wkus2TJTu6Ytx"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7dArkHuO5wkus2TJTu6Ytx",
+        "id" : "7dArkHuO5wkus2TJTu6Ytx",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/8afc1e989b639c2bf16f86f791b5cde5a1cfc65c",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ec0e81568e8d7ee7cca20daaa0e089d0d9258c8a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/3a97212f539540d7cec906f18b10d7df7ceed061",
+          "width" : 64
+        } ],
+        "name" : "Monstercat 007 - Solace",
+        "type" : "album",
+        "uri" : "spotify:album:7dArkHuO5wkus2TJTu6Ytx"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/28Ky95tmlHktB96DBUoB0g"
+        },
+        "href" : "https://api.spotify.com/v1/artists/28Ky95tmlHktB96DBUoB0g",
+        "id" : "28Ky95tmlHktB96DBUoB0g",
+        "name" : "Tristam",
+        "type" : "artist",
+        "uri" : "spotify:artist:28Ky95tmlHktB96DBUoB0g"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 236741,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCABG1223456"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1KoPS8IrSlhsW4ioFEIVL9"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1KoPS8IrSlhsW4ioFEIVL9",
+      "id" : "1KoPS8IrSlhsW4ioFEIVL9",
+      "name" : "I Remember",
+      "popularity" : 47,
+      "preview_url" : "https://p.scdn.co/mp3-preview/f08b3be02ff1f3c91fd5c83a68f2964c3f18899c",
+      "track_number" : 17,
+      "type" : "track",
+      "uri" : "spotify:track:1KoPS8IrSlhsW4ioFEIVL9"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Tristam+-+I+Remember&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  }
+}

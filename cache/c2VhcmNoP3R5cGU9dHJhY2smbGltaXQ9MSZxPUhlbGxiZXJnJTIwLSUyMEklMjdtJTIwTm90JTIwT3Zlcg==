@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Hellberg+-+I%27m+Not+Over&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7zJPcTX8KqUdtvD7v5fmDm"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7zJPcTX8KqUdtvD7v5fmDm",
+        "id" : "7zJPcTX8KqUdtvD7v5fmDm",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/892bf6d21c676ed8d350e3bf204402e1edcbe585",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/96a06f9385510d393979977ba7a8f7d05dd90e90",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1e431726fc5671682419176852e01e7f1b3a2380",
+          "width" : 64
+        } ],
+        "name" : "I'm Not Over",
+        "type" : "album",
+        "uri" : "spotify:album:7zJPcTX8KqUdtvD7v5fmDm"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1kgxTtyF91VaqLD3J6Krd5"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1kgxTtyF91VaqLD3J6Krd5",
+        "id" : "1kgxTtyF91VaqLD3J6Krd5",
+        "name" : "Hellberg",
+        "type" : "artist",
+        "uri" : "spotify:artist:1kgxTtyF91VaqLD3J6Krd5"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22qf8cJRzBjIWb2Jc4JeOr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22qf8cJRzBjIWb2Jc4JeOr",
+        "id" : "22qf8cJRzBjIWb2Jc4JeOr",
+        "name" : "Tash",
+        "type" : "artist",
+        "uri" : "spotify:artist:22qf8cJRzBjIWb2Jc4JeOr"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 185582,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21400057"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6vit6hVkFt5cf3eWTG2oDC"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6vit6hVkFt5cf3eWTG2oDC",
+      "id" : "6vit6hVkFt5cf3eWTG2oDC",
+      "name" : "I'm Not Over (Radio Edit) [feat. Tash]",
+      "popularity" : 36,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1eef16f556b739fb4c351dd3c49a5f630beea580",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6vit6hVkFt5cf3eWTG2oDC"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Hellberg+-+I%27m+Not+Over&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 3
+  }
+}

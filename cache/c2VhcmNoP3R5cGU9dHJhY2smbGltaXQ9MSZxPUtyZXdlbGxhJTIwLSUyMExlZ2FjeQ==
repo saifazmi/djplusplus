@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Krewella+-+Legacy&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "GB", "IE" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4MDwihgqBhzrTM9OrAO1tK"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4MDwihgqBhzrTM9OrAO1tK",
+        "id" : "4MDwihgqBhzrTM9OrAO1tK",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/faeefb420d8a4be3f7fadc8cecb04bed76d02974",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/3813337c4430a4443fdb1db62d0e27cfbaf7c057",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e74eb1ab5f8c3a69070ca08e61f1c595d137cb8c",
+          "width" : 64
+        } ],
+        "name" : "Legacy",
+        "type" : "album",
+        "uri" : "spotify:album:4MDwihgqBhzrTM9OrAO1tK"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5ChF3i92IPZHduM7jN3dpg"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg",
+        "id" : "5ChF3i92IPZHduM7jN3dpg",
+        "name" : "Nicky Romero",
+        "type" : "artist",
+        "uri" : "spotify:artist:5ChF3i92IPZHduM7jN3dpg"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0Cd6nHYwecCNM1sVEXKlYr",
+        "id" : "0Cd6nHYwecCNM1sVEXKlYr",
+        "name" : "Krewella",
+        "type" : "artist",
+        "uri" : "spotify:artist:0Cd6nHYwecCNM1sVEXKlYr"
+      } ],
+      "available_markets" : [ "GB", "IE" ],
+      "disc_number" : 1,
+      "duration_ms" : 195706,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "NLUW21300051"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6bfRJp8Tpb43WFW0rweLaT"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6bfRJp8Tpb43WFW0rweLaT",
+      "id" : "6bfRJp8Tpb43WFW0rweLaT",
+      "name" : "Legacy - Radio Edit",
+      "popularity" : 27,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c7d2273994fe6539dfff22948708b9e34e663991",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6bfRJp8Tpb43WFW0rweLaT"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Krewella+-+Legacy&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 9
+  }
+}

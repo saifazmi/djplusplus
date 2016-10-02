@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Passenger+-+Let+Her+Go&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "GB", "IE" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6eMGBIgRmKeNg8QP4paP4O"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6eMGBIgRmKeNg8QP4paP4O",
+        "id" : "6eMGBIgRmKeNg8QP4paP4O",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/a54d8ad1752604d67c530a0b4925577d0478286c",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/4cd91c9e139def91fcaa6a70c0840cbe36e6fc42",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a7c2248b14288d27694db89037b6edb894d86559",
+          "width" : 64
+        } ],
+        "name" : "All the Little Lights",
+        "type" : "album",
+        "uri" : "spotify:album:6eMGBIgRmKeNg8QP4paP4O"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0gadJ2b9A4SKsB1RFkBb66"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0gadJ2b9A4SKsB1RFkBb66",
+        "id" : "0gadJ2b9A4SKsB1RFkBb66",
+        "name" : "Passenger",
+        "type" : "artist",
+        "uri" : "spotify:artist:0gadJ2b9A4SKsB1RFkBb66"
+      } ],
+      "available_markets" : [ "GB", "IE" ],
+      "disc_number" : 1,
+      "duration_ms" : 250866,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBMQN1200012"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4zTa4w2IK9VxftxJL3RmvJ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4zTa4w2IK9VxftxJL3RmvJ",
+      "id" : "4zTa4w2IK9VxftxJL3RmvJ",
+      "name" : "Let Her Go",
+      "popularity" : 61,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d725db2a86af2b84e5ebc58d5f2f1e83349c6f9c",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:4zTa4w2IK9VxftxJL3RmvJ"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Passenger+-+Let+Her+Go&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 215
+  }
+}

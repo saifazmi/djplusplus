@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Krewella+-+Play+Hard&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "GB", "IE" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7p1qVfcCA7fruBmrXoAwHb"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7p1qVfcCA7fruBmrXoAwHb",
+        "id" : "7p1qVfcCA7fruBmrXoAwHb",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/976e0c705d4d57a3d7897f47eb6ce033ba6a390c",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/5e435ab5c643590755a7294da1321d279bbb5e0a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/d5a51cb7286add30387f413ebbc4aeb21ad71742",
+          "width" : 64
+        } ],
+        "name" : "PLAY HARD UK DELUXE EDITION",
+        "type" : "album",
+        "uri" : "spotify:album:7p1qVfcCA7fruBmrXoAwHb"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0Cd6nHYwecCNM1sVEXKlYr",
+        "id" : "0Cd6nHYwecCNM1sVEXKlYr",
+        "name" : "Krewella",
+        "type" : "artist",
+        "uri" : "spotify:artist:0Cd6nHYwecCNM1sVEXKlYr"
+      } ],
+      "available_markets" : [ "GB", "IE" ],
+      "disc_number" : 1,
+      "duration_ms" : 266346,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USQX91200822"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1iESAwFahugBvboqIHE8Tc"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1iESAwFahugBvboqIHE8Tc",
+      "id" : "1iESAwFahugBvboqIHE8Tc",
+      "name" : "Play Hard",
+      "popularity" : 19,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d23e34efcd54798e7db726304e0d689985450974",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1iESAwFahugBvboqIHE8Tc"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Krewella+-+Play+Hard&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 14
+  }
+}

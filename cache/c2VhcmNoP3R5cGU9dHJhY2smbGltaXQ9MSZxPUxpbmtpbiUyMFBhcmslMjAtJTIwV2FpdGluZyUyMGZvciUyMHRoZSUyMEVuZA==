@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Linkin+Park+-+Waiting+for+the+End&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5uvXx5ZQswNRFCdHR521YZ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5uvXx5ZQswNRFCdHR521YZ",
+        "id" : "5uvXx5ZQswNRFCdHR521YZ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/38fed8308958f74c76e71f75f38063ccaea4505b",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/895ad925a25ca737cc70ff022b1f4f46c200958a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/3546fad5f461e7efa82aa6a5ed8a664764363b81",
+          "width" : 64
+        } ],
+        "name" : "A Thousand Suns",
+        "type" : "album",
+        "uri" : "spotify:album:5uvXx5ZQswNRFCdHR521YZ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6XyY86QOPPrYVGvF9ch6wz",
+        "id" : "6XyY86QOPPrYVGvF9ch6wz",
+        "name" : "Linkin Park",
+        "type" : "artist",
+        "uri" : "spotify:artist:6XyY86QOPPrYVGvF9ch6wz"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 231680,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWB11001851"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5JHNg1hxZFT7TDEphhM4wj"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5JHNg1hxZFT7TDEphhM4wj",
+      "id" : "5JHNg1hxZFT7TDEphhM4wj",
+      "name" : "Waiting For The End",
+      "popularity" : 50,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c56fe96b7a150202ab1e6f428526ef1aef2e99a5",
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:5JHNg1hxZFT7TDEphhM4wj"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Linkin+Park+-+Waiting+for+the+End&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 38
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=RWBY+-+Mirror+Mirror&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/56Ui2IY7Wb73D5MLMdSeqD"
+        },
+        "href" : "https://api.spotify.com/v1/albums/56Ui2IY7Wb73D5MLMdSeqD",
+        "id" : "56Ui2IY7Wb73D5MLMdSeqD",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/0348e17ee3ac4c3a9cd0efc871daf53e776419be",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/cdd820abe70667eead9ab5a98ee3db89a7484db0",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/63819b0844f51d8cba8db9e7609715436e7c4c3d",
+          "width" : 64
+        } ],
+        "name" : "Rwby Volume 1 Soundtrack",
+        "type" : "album",
+        "uri" : "spotify:album:56Ui2IY7Wb73D5MLMdSeqD"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6jy0VQ5tLwEKBeMxZ1aK4J"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6jy0VQ5tLwEKBeMxZ1aK4J",
+        "id" : "6jy0VQ5tLwEKBeMxZ1aK4J",
+        "name" : "Jeff Williams",
+        "type" : "artist",
+        "uri" : "spotify:artist:6jy0VQ5tLwEKBeMxZ1aK4J"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/08dD0frW9WYHRGVa40oILp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/08dD0frW9WYHRGVa40oILp",
+        "id" : "08dD0frW9WYHRGVa40oILp",
+        "name" : "Casey Lee Williams",
+        "type" : "artist",
+        "uri" : "spotify:artist:08dD0frW9WYHRGVa40oILp"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 174827,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCABS1363655"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3TQRpzYeESmq2jC6IzxYBg"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3TQRpzYeESmq2jC6IzxYBg",
+      "id" : "3TQRpzYeESmq2jC6IzxYBg",
+      "name" : "Mirror Mirror (White Trailer) [feat. Casey Lee Williams]",
+      "popularity" : 45,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ec91c821ce4387d9606993ca899a97bdaaf01159",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:3TQRpzYeESmq2jC6IzxYBg"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=RWBY+-+Mirror+Mirror&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 5
+  }
+}

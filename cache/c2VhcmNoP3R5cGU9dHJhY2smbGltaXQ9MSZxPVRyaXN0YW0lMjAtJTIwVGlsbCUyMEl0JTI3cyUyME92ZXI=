@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Tristam+-+Till+It%27s+Over&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2KXjBbwvkoo574sZt7VDoY"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2KXjBbwvkoo574sZt7VDoY",
+        "id" : "2KXjBbwvkoo574sZt7VDoY",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/35450fe8947ab142ff7c7e0484fedcff6bf0db4e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/0fae3e86ff9ed84efb8620f399315b36160a1bef",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1a9d1a418857a7fcf0d41ba893bea79dc92671e3",
+          "width" : 64
+        } ],
+        "name" : "Till It's Over",
+        "type" : "album",
+        "uri" : "spotify:album:2KXjBbwvkoo574sZt7VDoY"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/28Ky95tmlHktB96DBUoB0g"
+        },
+        "href" : "https://api.spotify.com/v1/artists/28Ky95tmlHktB96DBUoB0g",
+        "id" : "28Ky95tmlHktB96DBUoB0g",
+        "name" : "Tristam",
+        "type" : "artist",
+        "uri" : "spotify:artist:28Ky95tmlHktB96DBUoB0g"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 270545,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21000275"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0E1RL6rKe18aUq70B2fgXs"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0E1RL6rKe18aUq70B2fgXs",
+      "id" : "0E1RL6rKe18aUq70B2fgXs",
+      "name" : "Till It's Over",
+      "popularity" : 51,
+      "preview_url" : "https://p.scdn.co/mp3-preview/44137f6c24de4e4bb1a5ce8db8b4ceec8917bb74",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0E1RL6rKe18aUq70B2fgXs"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Tristam+-+Till+It%27s+Over&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  }
+}

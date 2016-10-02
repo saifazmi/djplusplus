@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Krewella+-+Live+For+The+Night&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1Y7A8ZaZ9QyeeOa3uWQJqc"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1Y7A8ZaZ9QyeeOa3uWQJqc",
+        "id" : "1Y7A8ZaZ9QyeeOa3uWQJqc",
+        "images" : [ {
+          "height" : 636,
+          "url" : "https://i.scdn.co/image/1537253c1da10ab1429090cbc6fe0d3c555743ad",
+          "width" : 640
+        }, {
+          "height" : 298,
+          "url" : "https://i.scdn.co/image/2a99ba49f545ac85963a9ca61858858f5e39e177",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/8537e96ffafd0281db314d0cc5ca7af3b4d2a000",
+          "width" : 64
+        } ],
+        "name" : "Get Wet",
+        "type" : "album",
+        "uri" : "spotify:album:1Y7A8ZaZ9QyeeOa3uWQJqc"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0Cd6nHYwecCNM1sVEXKlYr",
+        "id" : "0Cd6nHYwecCNM1sVEXKlYr",
+        "name" : "Krewella",
+        "type" : "artist",
+        "uri" : "spotify:artist:0Cd6nHYwecCNM1sVEXKlYr"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 206480,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USSM11303662"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/457p7UH7hoHrbA2iI4PSCA"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/457p7UH7hoHrbA2iI4PSCA",
+      "id" : "457p7UH7hoHrbA2iI4PSCA",
+      "name" : "Live for the Night",
+      "popularity" : 55,
+      "preview_url" : "https://p.scdn.co/mp3-preview/6b6461874a766987a72a6973b1b5d85198d45a9f",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:457p7UH7hoHrbA2iI4PSCA"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Krewella+-+Live+For+The+Night&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 27
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Rednex+-+Cotton+Eye+Joe&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HN", "HU", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "NI", "NL", "NO", "NZ", "PA", "PE", "PL", "PT", "PY", "SE", "SK", "SV", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3MLXp4rTGt1USufyODvXuz"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3MLXp4rTGt1USufyODvXuz",
+        "id" : "3MLXp4rTGt1USufyODvXuz",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/70a47661d4be1d9e51f471d9d0943245130975b2",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/6b0bb1a7f082fd2da7e5312934ba91b1aa5df2e0",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/95666cefe7d44534d477879e0e90ea4e770d6b5a",
+          "width" : 64
+        } ],
+        "name" : "Sex & Violins",
+        "type" : "album",
+        "uri" : "spotify:album:3MLXp4rTGt1USufyODvXuz"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22Zqu1yyebVnbve8FxbJ2g"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22Zqu1yyebVnbve8FxbJ2g",
+        "id" : "22Zqu1yyebVnbve8FxbJ2g",
+        "name" : "Rednex",
+        "type" : "artist",
+        "uri" : "spotify:artist:22Zqu1yyebVnbve8FxbJ2g"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HN", "HU", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "NI", "NL", "NO", "NZ", "PA", "PE", "PL", "PT", "PY", "SE", "SK", "SV", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 193826,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBAHK9400110"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0Jg602cHeMCnPez9baacIe"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0Jg602cHeMCnPez9baacIe",
+      "id" : "0Jg602cHeMCnPez9baacIe",
+      "name" : "Cotton Eye Joe",
+      "popularity" : 63,
+      "preview_url" : "https://p.scdn.co/mp3-preview/83fb1dbb3f220a9d55f5897e3d2ddcb605c9a530",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0Jg602cHeMCnPez9baacIe"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Rednex+-+Cotton+Eye+Joe&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 95
+  }
+}

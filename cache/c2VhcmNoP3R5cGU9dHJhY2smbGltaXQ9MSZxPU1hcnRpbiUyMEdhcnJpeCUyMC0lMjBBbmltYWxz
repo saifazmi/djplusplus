@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Martin+Garrix+-+Animals&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AR", "BO", "BR", "CL", "CO", "CR", "EC", "GB", "GT", "HN", "IE", "NI", "PA", "PE", "PY", "SV", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/715w1opXjLZojrkbwvJ0wa"
+        },
+        "href" : "https://api.spotify.com/v1/albums/715w1opXjLZojrkbwvJ0wa",
+        "id" : "715w1opXjLZojrkbwvJ0wa",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/3f77c6341a33ce32baa4a4dbcd15b08bd0f4f7c3",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/bc34f86e0d1cb36c42db81ad10616d93b558d8fc",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/2c01304a5b575c27ace3411a661a93eae3af0db1",
+          "width" : 64
+        } ],
+        "name" : "Animals",
+        "type" : "album",
+        "uri" : "spotify:album:715w1opXjLZojrkbwvJ0wa"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/60d24wfXkVzDSfLS6hyCjZ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/60d24wfXkVzDSfLS6hyCjZ",
+        "id" : "60d24wfXkVzDSfLS6hyCjZ",
+        "name" : "Martin Garrix",
+        "type" : "artist",
+        "uri" : "spotify:artist:60d24wfXkVzDSfLS6hyCjZ"
+      } ],
+      "available_markets" : [ "AR", "BO", "BR", "CL", "CO", "CR", "EC", "GB", "GT", "HN", "IE", "NI", "PA", "PE", "PY", "SV", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 303826,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "AUNV01301212"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/28GieRAflAHypFfEimSaxa"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/28GieRAflAHypFfEimSaxa",
+      "id" : "28GieRAflAHypFfEimSaxa",
+      "name" : "Animals",
+      "popularity" : 58,
+      "preview_url" : "https://p.scdn.co/mp3-preview/4a258ffda9d06fdc51cf35ff7686053bee6c4f09",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:28GieRAflAHypFfEimSaxa"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Martin+Garrix+-+Animals&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 190
+  }
+}

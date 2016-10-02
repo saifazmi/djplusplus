@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Hellberg+-+The+Girl&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7u99WBfuzSOlISWMJQIhxf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7u99WBfuzSOlISWMJQIhxf",
+        "id" : "7u99WBfuzSOlISWMJQIhxf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/747348e294397bc5ba812be22ae25990f2c32c1e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/fbf01bc8a7b76d2fe9ede8da2e713f6088907935",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/005ef2fb358f9b91ccdbbaf765919fc8b9745b94",
+          "width" : 64
+        } ],
+        "name" : "The Girl (feat. Cozi Zuehlsdorff)",
+        "type" : "album",
+        "uri" : "spotify:album:7u99WBfuzSOlISWMJQIhxf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1kgxTtyF91VaqLD3J6Krd5"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1kgxTtyF91VaqLD3J6Krd5",
+        "id" : "1kgxTtyF91VaqLD3J6Krd5",
+        "name" : "Hellberg",
+        "type" : "artist",
+        "uri" : "spotify:artist:1kgxTtyF91VaqLD3J6Krd5"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5wMfct6VVvaVQ8xGCXxIUa"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5wMfct6VVvaVQ8xGCXxIUa",
+        "id" : "5wMfct6VVvaVQ8xGCXxIUa",
+        "name" : "Cozi Zuehlsdorff",
+        "type" : "artist",
+        "uri" : "spotify:artist:5wMfct6VVvaVQ8xGCXxIUa"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 265659,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21500160"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2TsMgZTaacXikcOAEezzyk"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2TsMgZTaacXikcOAEezzyk",
+      "id" : "2TsMgZTaacXikcOAEezzyk",
+      "name" : "The Girl (feat. Cozi Zuehlsdorff)",
+      "popularity" : 55,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3335511657f4a4384917b7558da487b9c123f77c",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2TsMgZTaacXikcOAEezzyk"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Hellberg+-+The+Girl&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 10
+  }
+}

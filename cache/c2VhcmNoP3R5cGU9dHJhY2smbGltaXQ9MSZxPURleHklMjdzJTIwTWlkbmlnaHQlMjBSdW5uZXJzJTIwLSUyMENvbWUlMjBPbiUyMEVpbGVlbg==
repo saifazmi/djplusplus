@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Dexy%27s+Midnight+Runners+-+Come+On+Eileen&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7n4I46opbAXOFThq7Gr2PS"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7n4I46opbAXOFThq7Gr2PS",
+        "id" : "7n4I46opbAXOFThq7Gr2PS",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/7c2de9170b7cac4972df12a88ff30f560d230e06",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d886d292edb709b6e60f273ad90659d91f1961e5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a5db40a5c5c0d1a6147b750e0d04afffc6a13888",
+          "width" : 64
+        } ],
+        "name" : "Karaoke - Rock For Boys Vol.59",
+        "type" : "album",
+        "uri" : "spotify:album:7n4I46opbAXOFThq7Gr2PS"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5aEMARkjW3SYYnGLTLgCks"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5aEMARkjW3SYYnGLTLgCks",
+        "id" : "5aEMARkjW3SYYnGLTLgCks",
+        "name" : "Karaoke - Ameritz",
+        "type" : "artist",
+        "uri" : "spotify:artist:5aEMARkjW3SYYnGLTLgCks"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 254053,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USA560723534"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4AUlyXCVkznYS9Br8LbrXW"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4AUlyXCVkznYS9Br8LbrXW",
+      "id" : "4AUlyXCVkznYS9Br8LbrXW",
+      "name" : "Come On Eileen (In The Style Of Dexy’s Midnight Runners)",
+      "popularity" : 0,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d081dfb2ed1a5f08ddb997e26eb1d9420ab4f98a",
+      "track_number" : 4,
+      "type" : "track",
+      "uri" : "spotify:track:4AUlyXCVkznYS9Br8LbrXW"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Dexy%27s+Midnight+Runners+-+Come+On+Eileen&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 105
+  }
+}

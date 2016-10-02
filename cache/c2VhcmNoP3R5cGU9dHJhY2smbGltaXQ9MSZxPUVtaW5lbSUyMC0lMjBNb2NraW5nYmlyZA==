@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Eminem+-+Mockingbird&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/71xFWYFtiHC8eP99QB30AA"
+        },
+        "href" : "https://api.spotify.com/v1/albums/71xFWYFtiHC8eP99QB30AA",
+        "id" : "71xFWYFtiHC8eP99QB30AA",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/4a8484bc28e3c1432db5d77728391e665af8b296",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/7ec62f5e56dfdf8f112addd40d96245ca87c61f5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/3681cf9c5b0c21709f821c047251f898156aa37a",
+          "width" : 64
+        } ],
+        "name" : "Curtain Call (Deluxe)",
+        "type" : "album",
+        "uri" : "spotify:album:71xFWYFtiHC8eP99QB30AA"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+        "id" : "7dGJo4pcD2V6oG8kP0tJRR",
+        "name" : "Eminem",
+        "type" : "artist",
+        "uri" : "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 251266,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USIR10400813"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/17baAghWcrewNOcc9dCewx"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/17baAghWcrewNOcc9dCewx",
+      "id" : "17baAghWcrewNOcc9dCewx",
+      "name" : "Mockingbird",
+      "popularity" : 69,
+      "preview_url" : "https://p.scdn.co/mp3-preview/837344dc6d3ccc9f5a80234de663a495a96b77cf",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:17baAghWcrewNOcc9dCewx"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Eminem+-+Mockingbird&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 36
+  }
+}

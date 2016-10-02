@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Simon+and+Garfunkel+-+The+Sound+of+Silence&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6aimJxDJMApLmry2VSjsLT"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6aimJxDJMApLmry2VSjsLT",
+        "id" : "6aimJxDJMApLmry2VSjsLT",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/a68d24a9fc0eac274f369bed1c38e87ee7051125",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/8cc995c2e99c3ccb47699bdd4c3c32b0ee342465",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0c40a46f91569af8e86acec4a2dadad17bd8dfed",
+          "width" : 64
+        } ],
+        "name" : "The Graduate",
+        "type" : "album",
+        "uri" : "spotify:album:6aimJxDJMApLmry2VSjsLT"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/70cRZdQywnSFp9pnc2WTCE"
+        },
+        "href" : "https://api.spotify.com/v1/artists/70cRZdQywnSFp9pnc2WTCE",
+        "id" : "70cRZdQywnSFp9pnc2WTCE",
+        "name" : "Simon & Garfunkel",
+        "type" : "artist",
+        "uri" : "spotify:artist:70cRZdQywnSFp9pnc2WTCE"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 185440,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USSM19918647"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2LkaNhCrNVmcYgXJeLVmsw"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2LkaNhCrNVmcYgXJeLVmsw",
+      "id" : "2LkaNhCrNVmcYgXJeLVmsw",
+      "name" : "The Sound of Silence",
+      "popularity" : 68,
+      "preview_url" : "https://p.scdn.co/mp3-preview/173de2dea5dd26b7fdacec11d475b1a0e2d7d52c",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2LkaNhCrNVmcYgXJeLVmsw"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Simon+and+Garfunkel+-+The+Sound+of+Silence&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 158
+  }
+}

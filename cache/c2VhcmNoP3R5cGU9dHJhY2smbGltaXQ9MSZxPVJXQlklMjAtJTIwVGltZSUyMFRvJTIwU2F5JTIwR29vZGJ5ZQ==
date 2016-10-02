@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=RWBY+-+Time+To+Say+Goodbye&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3i5lsfFaf8D6zIbVAErzwe"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3i5lsfFaf8D6zIbVAErzwe",
+        "id" : "3i5lsfFaf8D6zIbVAErzwe",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/3184a4a058186413475d9bd6adc0563e41929e08",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/13ccb913d2832769100023f91f7f6c75ae7df43f",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ca85f3c6ec7310edec671ea3f3eb24bb15d22840",
+          "width" : 64
+        } ],
+        "name" : "Rwby, Vol. 2 (Original Soundtrack & Score)",
+        "type" : "album",
+        "uri" : "spotify:album:3i5lsfFaf8D6zIbVAErzwe"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/08dD0frW9WYHRGVa40oILp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/08dD0frW9WYHRGVa40oILp",
+        "id" : "08dD0frW9WYHRGVa40oILp",
+        "name" : "Casey Lee Williams",
+        "type" : "artist",
+        "uri" : "spotify:artist:08dD0frW9WYHRGVa40oILp"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6jy0VQ5tLwEKBeMxZ1aK4J"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6jy0VQ5tLwEKBeMxZ1aK4J",
+        "id" : "6jy0VQ5tLwEKBeMxZ1aK4J",
+        "name" : "Jeff Williams",
+        "type" : "artist",
+        "uri" : "spotify:artist:6jy0VQ5tLwEKBeMxZ1aK4J"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 204258,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACB1498054"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0eDCe3Y8fMzdCbfrUR0giO"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0eDCe3Y8fMzdCbfrUR0giO",
+      "id" : "0eDCe3Y8fMzdCbfrUR0giO",
+      "name" : "Time to Say Goodbye",
+      "popularity" : 50,
+      "preview_url" : "https://p.scdn.co/mp3-preview/f2ddb183f940618ef149cd508de5755a4e6d6b01",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0eDCe3Y8fMzdCbfrUR0giO"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=RWBY+-+Time+To+Say+Goodbye&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 4
+  }
+}

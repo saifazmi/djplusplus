@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=TryHardNinja+-+Pick+A+Universe&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3x5JjPSXYOMixquAnUWsNl"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3x5JjPSXYOMixquAnUWsNl",
+        "id" : "3x5JjPSXYOMixquAnUWsNl",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/9414f3030de967f4712b5f055ff772c80dea959e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/a135e9989954019c68d2ba7ffeae8405533ceec0",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/cea81610e71559865d28f1ec4e8749abc2ac8c6e",
+          "width" : 64
+        } ],
+        "name" : "Pick a Universe",
+        "type" : "album",
+        "uri" : "spotify:album:3x5JjPSXYOMixquAnUWsNl"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0B7Y5KDNScTBzeN7DY74YG"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0B7Y5KDNScTBzeN7DY74YG",
+        "id" : "0B7Y5KDNScTBzeN7DY74YG",
+        "name" : "Tryhardninja",
+        "type" : "artist",
+        "uri" : "spotify:artist:0B7Y5KDNScTBzeN7DY74YG"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 246026,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACB1433699"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4CzJNaGhWWpbv36kpTIzhv"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4CzJNaGhWWpbv36kpTIzhv",
+      "id" : "4CzJNaGhWWpbv36kpTIzhv",
+      "name" : "Find the Pieces",
+      "popularity" : 41,
+      "preview_url" : "https://p.scdn.co/mp3-preview/4b27d1f64cdd5db84b6b771c9c2f0099e4bb79ac",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:4CzJNaGhWWpbv36kpTIzhv"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=TryHardNinja+-+Pick+A+Universe&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 24
+  }
+}

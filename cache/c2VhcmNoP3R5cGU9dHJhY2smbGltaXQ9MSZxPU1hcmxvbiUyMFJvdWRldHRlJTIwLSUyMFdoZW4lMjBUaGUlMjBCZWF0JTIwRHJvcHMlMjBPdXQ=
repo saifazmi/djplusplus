@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Marlon+Roudette+-+When+The+Beat+Drops+Out&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AR", "BO", "BR", "CA", "CL", "CO", "CR", "EC", "GB", "GT", "HN", "IE", "MX", "NI", "PA", "PE", "PY", "SV", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7AlJCHpFtXKkm1QRJi2K1i"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7AlJCHpFtXKkm1QRJi2K1i",
+        "id" : "7AlJCHpFtXKkm1QRJi2K1i",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/e0e35baf6a449fdafac63af3ec54c14f11ec5dcc",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/e1fce75f3ede385faf179c8ef447301fe68921fd",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/43e17c12edf3a430b4620dcc2bc41e701aa6def9",
+          "width" : 64
+        } ],
+        "name" : "When the Beat Drops Out",
+        "type" : "album",
+        "uri" : "spotify:album:7AlJCHpFtXKkm1QRJi2K1i"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2R1QrQqWuw3IjoP5dXRFjt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2R1QrQqWuw3IjoP5dXRFjt",
+        "id" : "2R1QrQqWuw3IjoP5dXRFjt",
+        "name" : "Marlon Roudette",
+        "type" : "artist",
+        "uri" : "spotify:artist:2R1QrQqWuw3IjoP5dXRFjt"
+      } ],
+      "available_markets" : [ "AR", "BO", "BR", "CA", "CL", "CO", "CR", "EC", "GB", "GT", "HN", "IE", "MX", "NI", "PA", "PE", "PY", "SV", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 204426,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GB27E1400001"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4c24laIQGNc7QTICHZZKOq"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4c24laIQGNc7QTICHZZKOq",
+      "id" : "4c24laIQGNc7QTICHZZKOq",
+      "name" : "When the Beat Drops Out",
+      "popularity" : 55,
+      "preview_url" : "https://p.scdn.co/mp3-preview/4d14594ca48f130cc2b9d74469402e8580ff21e2",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:4c24laIQGNc7QTICHZZKOq"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Marlon+Roudette+-+When+The+Beat+Drops+Out&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 72
+  }
+}

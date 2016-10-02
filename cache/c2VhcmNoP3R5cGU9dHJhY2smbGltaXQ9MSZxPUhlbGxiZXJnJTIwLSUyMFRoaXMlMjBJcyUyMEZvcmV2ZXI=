@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Hellberg+-+This+Is+Forever&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2vDMXn8Th2GKcI3UkL8dG4"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2vDMXn8Th2GKcI3UkL8dG4",
+        "id" : "2vDMXn8Th2GKcI3UkL8dG4",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/6270665a419882e9677b4b5db19e2ea839a5a066",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/7fb98dd0a22dabb05c4072d01d4f2a20d3761c42",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/608759b097fea215f8d44dd87c645b4d91e24e0e",
+          "width" : 64
+        } ],
+        "name" : "This Is Forever (feat. Danyka Nadeau)",
+        "type" : "album",
+        "uri" : "spotify:album:2vDMXn8Th2GKcI3UkL8dG4"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1kgxTtyF91VaqLD3J6Krd5"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1kgxTtyF91VaqLD3J6Krd5",
+        "id" : "1kgxTtyF91VaqLD3J6Krd5",
+        "name" : "Hellberg",
+        "type" : "artist",
+        "uri" : "spotify:artist:1kgxTtyF91VaqLD3J6Krd5"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2dVIbEt8BdjznykrUuSCDc"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2dVIbEt8BdjznykrUuSCDc",
+        "id" : "2dVIbEt8BdjznykrUuSCDc",
+        "name" : "Danyka Nadeau",
+        "type" : "artist",
+        "uri" : "spotify:artist:2dVIbEt8BdjznykrUuSCDc"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 372366,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21000373"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2KKtVbiUduFBMSRDjijMWz"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2KKtVbiUduFBMSRDjijMWz",
+      "id" : "2KKtVbiUduFBMSRDjijMWz",
+      "name" : "This Is Forever (feat. Danyka Nadeau)",
+      "popularity" : 37,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b9f7e3ff7a8e402df9b864cb686c8a77b5c09a43",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2KKtVbiUduFBMSRDjijMWz"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Hellberg+-+This+Is+Forever&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 4
+  }
+}

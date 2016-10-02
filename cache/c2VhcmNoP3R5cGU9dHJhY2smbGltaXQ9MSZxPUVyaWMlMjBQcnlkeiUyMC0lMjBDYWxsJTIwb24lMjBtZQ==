@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Eric+Prydz+-+Call+on+me&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4FN8F3aiiUagVSBBGW5ULu"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4FN8F3aiiUagVSBBGW5ULu",
+        "id" : "4FN8F3aiiUagVSBBGW5ULu",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/8e4121eb83cc0c2699de7fbcf67cf7fdbbc7b301",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/42e8b4df26018dc84b2901a2760350895a4c0819",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1e1fc1e23160934c9fc173731b337f63cdca924b",
+          "width" : 64
+        } ],
+        "name" : "Call On Me",
+        "type" : "album",
+        "uri" : "spotify:album:4FN8F3aiiUagVSBBGW5ULu"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5sm0jQ1mq0dusiLtDJ2b4R"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5sm0jQ1mq0dusiLtDJ2b4R",
+        "id" : "5sm0jQ1mq0dusiLtDJ2b4R",
+        "name" : "Eric Prydz",
+        "type" : "artist",
+        "uri" : "spotify:artist:5sm0jQ1mq0dusiLtDJ2b4R"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 171360,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBCEN0400130"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3uLSUZEmTY50H6Kw17lpfW"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3uLSUZEmTY50H6Kw17lpfW",
+      "id" : "3uLSUZEmTY50H6Kw17lpfW",
+      "name" : "Call On Me - Radio Edit",
+      "popularity" : 61,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1ebddc935c487dde01a4c10380cc4cd76a466ecd",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3uLSUZEmTY50H6Kw17lpfW"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Eric+Prydz+-+Call+on+me&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 26
+  }
+}

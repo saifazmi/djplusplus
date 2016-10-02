@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Panic+At+The+Disco+-+The+Ballad+of+Mona+Lisa&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5S0nsfYhHa1uz10V4yoWSL"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5S0nsfYhHa1uz10V4yoWSL",
+        "id" : "5S0nsfYhHa1uz10V4yoWSL",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/81e3d1cdb4b55fc38737a97a9093068591b17f80",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/056ff7b0e1e194bf1e5e7db45e8ff0b0ba9d15fa",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/de0eb043d675512da668578af4f67311db725b58",
+          "width" : 64
+        } ],
+        "name" : "Vices & Virtues",
+        "type" : "album",
+        "uri" : "spotify:album:5S0nsfYhHa1uz10V4yoWSL"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/20JZFwl6HVl6yg8a4H3ZqK"
+        },
+        "href" : "https://api.spotify.com/v1/artists/20JZFwl6HVl6yg8a4H3ZqK",
+        "id" : "20JZFwl6HVl6yg8a4H3ZqK",
+        "name" : "Panic! At The Disco",
+        "type" : "artist",
+        "uri" : "spotify:artist:20JZFwl6HVl6yg8a4H3ZqK"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 226680,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USAT21002551"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5rLi8B8qgk6qThwRnKHW2P"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5rLi8B8qgk6qThwRnKHW2P",
+      "id" : "5rLi8B8qgk6qThwRnKHW2P",
+      "name" : "The Ballad Of Mona Lisa",
+      "popularity" : 66,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a5ed028b14209ee5c3491350782fa75b69185071",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:5rLi8B8qgk6qThwRnKHW2P"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Panic+At+The+Disco+-+The+Ballad+of+Mona+Lisa&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 44
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Cozi+Zuehlsdorff+-+Turn+the+Light+On&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3QawjroofPDT79T07moQaq"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3QawjroofPDT79T07moQaq",
+        "id" : "3QawjroofPDT79T07moQaq",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/3affe25f80958a94a248fdc742b6bec5a2acab56",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/a5675a94cd8551fad07e7bb7b5b7bfb60be12ed3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/80c8db7aaa83391f802c206d5cea4a0d1d70e1ef",
+          "width" : 64
+        } ],
+        "name" : "Originals",
+        "type" : "album",
+        "uri" : "spotify:album:3QawjroofPDT79T07moQaq"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5wMfct6VVvaVQ8xGCXxIUa"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5wMfct6VVvaVQ8xGCXxIUa",
+        "id" : "5wMfct6VVvaVQ8xGCXxIUa",
+        "name" : "Cozi Zuehlsdorff",
+        "type" : "artist",
+        "uri" : "spotify:artist:5wMfct6VVvaVQ8xGCXxIUa"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 206266,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QM9AA1464361"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6ppylw6mRRMLzVIaAK3wH7"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6ppylw6mRRMLzVIaAK3wH7",
+      "id" : "6ppylw6mRRMLzVIaAK3wH7",
+      "name" : "Turn the Light On",
+      "popularity" : 10,
+      "preview_url" : "https://p.scdn.co/mp3-preview/db1d72666fb710e21452c8ef6446230cf4c70f28",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:6ppylw6mRRMLzVIaAK3wH7"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

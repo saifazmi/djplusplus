@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Itch+-+Homeless+Romantic&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3cE45Qwb3vHzToaqQwFblK"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3cE45Qwb3vHzToaqQwFblK",
+        "id" : "3cE45Qwb3vHzToaqQwFblK",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/31a08734ea7cc146f1191d5646115a4f7d1b8435",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ffeaa89f43dc46ecfbfd68276e076e2eda8d286b",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/3864b8bc951ce98dcbdbe796b4dee18df22755db",
+          "width" : 64
+        } ],
+        "name" : "The Deep End",
+        "type" : "album",
+        "uri" : "spotify:album:3cE45Qwb3vHzToaqQwFblK"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0TAITmVrG10TK5kngOwpPr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0TAITmVrG10TK5kngOwpPr",
+        "id" : "0TAITmVrG10TK5kngOwpPr",
+        "name" : "Itch",
+        "type" : "artist",
+        "uri" : "spotify:artist:0TAITmVrG10TK5kngOwpPr"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1z1nZOj7qQWhNjWKr5ipqh"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1z1nZOj7qQWhNjWKr5ipqh",
+        "id" : "1z1nZOj7qQWhNjWKr5ipqh",
+        "name" : "Adam Lazzara",
+        "type" : "artist",
+        "uri" : "spotify:artist:1z1nZOj7qQWhNjWKr5ipqh"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 254820,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USP6L1300129"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/06BOZDMpSnrBmEMhCES2U1"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/06BOZDMpSnrBmEMhCES2U1",
+      "id" : "06BOZDMpSnrBmEMhCES2U1",
+      "name" : "Homeless Romantic",
+      "popularity" : 20,
+      "preview_url" : "https://p.scdn.co/mp3-preview/37f79865ccf04fbabde2d8d72ab04cbed1684ecc",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:06BOZDMpSnrBmEMhCES2U1"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Itch+-+Homeless+Romantic&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Krewella+-+Say+Goodbye&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5qKmiYTrzLRMw2DgqxdcGZ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5qKmiYTrzLRMw2DgqxdcGZ",
+        "id" : "5qKmiYTrzLRMw2DgqxdcGZ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/9e3695f209b181b69855358cc4030c931d083e61",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/962dbdd8c5bebbc395b3cdc9dc1116047cf42d77",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/4f1e19448af3070ea7156a61d2508953e5e8d47c",
+          "width" : 64
+        } ],
+        "name" : "Say Goodbye",
+        "type" : "album",
+        "uri" : "spotify:album:5qKmiYTrzLRMw2DgqxdcGZ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0Cd6nHYwecCNM1sVEXKlYr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0Cd6nHYwecCNM1sVEXKlYr",
+        "id" : "0Cd6nHYwecCNM1sVEXKlYr",
+        "name" : "Krewella",
+        "type" : "artist",
+        "uri" : "spotify:artist:0Cd6nHYwecCNM1sVEXKlYr"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 233133,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USSM11409764"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2Hlfm48wmDNFHTZM7qqEWV"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2Hlfm48wmDNFHTZM7qqEWV",
+      "id" : "2Hlfm48wmDNFHTZM7qqEWV",
+      "name" : "Say Goodbye",
+      "popularity" : 49,
+      "preview_url" : "https://p.scdn.co/mp3-preview/4a7dc97f78cfcfe0aae425623b559e27b292ab18",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2Hlfm48wmDNFHTZM7qqEWV"
+    } ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

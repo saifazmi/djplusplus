@@ -1,0 +1,83 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Hellberg+-+Ashes&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5cjMyQVCHjxfiiIKCSu1zH"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5cjMyQVCHjxfiiIKCSu1zH",
+        "id" : "5cjMyQVCHjxfiiIKCSu1zH",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/118c2c840ab3331e21e7f168a4ea2eef88c8aa36",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/b8cbdd46b3594d995df629edd71224903bd2773e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0b543d4772fbf6666669a9cd45f6e1056e08f651",
+          "width" : 64
+        } ],
+        "name" : "Ashes (Burn Your Love)",
+        "type" : "album",
+        "uri" : "spotify:album:5cjMyQVCHjxfiiIKCSu1zH"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1kgxTtyF91VaqLD3J6Krd5"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1kgxTtyF91VaqLD3J6Krd5",
+        "id" : "1kgxTtyF91VaqLD3J6Krd5",
+        "name" : "Hellberg",
+        "type" : "artist",
+        "uri" : "spotify:artist:1kgxTtyF91VaqLD3J6Krd5"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/79v9Al6rSVH9SFk0QzzOl1"
+        },
+        "href" : "https://api.spotify.com/v1/artists/79v9Al6rSVH9SFk0QzzOl1",
+        "id" : "79v9Al6rSVH9SFk0QzzOl1",
+        "name" : "Rich Edwards",
+        "type" : "artist",
+        "uri" : "spotify:artist:79v9Al6rSVH9SFk0QzzOl1"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2dVIbEt8BdjznykrUuSCDc"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2dVIbEt8BdjznykrUuSCDc",
+        "id" : "2dVIbEt8BdjznykrUuSCDc",
+        "name" : "Danyka Nadeau",
+        "type" : "artist",
+        "uri" : "spotify:artist:2dVIbEt8BdjznykrUuSCDc"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 204469,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21400090"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6bDcEF9FVpxMJSLRivr8Ad"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6bDcEF9FVpxMJSLRivr8Ad",
+      "id" : "6bDcEF9FVpxMJSLRivr8Ad",
+      "name" : "Ashes (Burn Your Love) (Radio Edit) [feat. Danyka Nadeau]",
+      "popularity" : 38,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b8f8b2d6539f172f50f3131684b4570831cc8a01",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:6bDcEF9FVpxMJSLRivr8Ad"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Hellberg+-+Ashes&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 3
+  }
+}

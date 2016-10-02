@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Jos%C3%A9+Gonz%C3%A1lez+-+Crosses&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AT", "BE", "CH", "DE", "FR", "GB", "IE", "LU", "NL" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5n7X5fHKzG6QaKAHGB7Y8A"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5n7X5fHKzG6QaKAHGB7Y8A",
+        "id" : "5n7X5fHKzG6QaKAHGB7Y8A",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/2e5301dc1ab8c09bbdd300e1e538e628ac062957",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/03c5f4db5fa807c06953e39f33b4d82ed09d843d",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/4d022cb324c74f887359c1d730df6d632f80e838",
+          "width" : 64
+        } ],
+        "name" : "Veneer",
+        "type" : "album",
+        "uri" : "spotify:album:5n7X5fHKzG6QaKAHGB7Y8A"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6xrCU6zdcSTsG2hLrojpmI"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6xrCU6zdcSTsG2hLrojpmI",
+        "id" : "6xrCU6zdcSTsG2hLrojpmI",
+        "name" : "José González",
+        "type" : "artist",
+        "uri" : "spotify:artist:6xrCU6zdcSTsG2hLrojpmI"
+      } ],
+      "available_markets" : [ "AT", "BE", "CH", "DE", "FR", "GB", "IE", "LU", "NL" ],
+      "disc_number" : 1,
+      "duration_ms" : 162920,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "SEVVX0300101"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/277bAXhqfHukF9Yvhk6MYr"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/277bAXhqfHukF9Yvhk6MYr",
+      "id" : "277bAXhqfHukF9Yvhk6MYr",
+      "name" : "Crosses",
+      "popularity" : 51,
+      "preview_url" : "https://p.scdn.co/mp3-preview/573170b2c21902c528ee54dcd61ef72bda0cfd64",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:277bAXhqfHukF9Yvhk6MYr"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Jos%C3%A9+Gonz%C3%A1lez+-+Crosses&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 5
+  }
+}

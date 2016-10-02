@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Shakira+-+Hips+Don%27t+Lie&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5ppnlEoj4HdRRdRihnY3jU"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5ppnlEoj4HdRRdRihnY3jU",
+        "id" : "5ppnlEoj4HdRRdRihnY3jU",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/3d727554b08c9ce5c04b5cf82144150e3291d2fd",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/9b808e1c293a084e34b88bc4b9f0fc07d417958c",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e234d27f81844acbd897c38776c39e66607b8f6f",
+          "width" : 64
+        } ],
+        "name" : "Oral Fixation Vol. 2",
+        "type" : "album",
+        "uri" : "spotify:album:5ppnlEoj4HdRRdRihnY3jU"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0EmeFodog0BfCgMzAIvKQp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0EmeFodog0BfCgMzAIvKQp",
+        "id" : "0EmeFodog0BfCgMzAIvKQp",
+        "name" : "Shakira",
+        "type" : "artist",
+        "uri" : "spotify:artist:0EmeFodog0BfCgMzAIvKQp"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7aBzpmFXB4WWpPl2F7RjBe"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7aBzpmFXB4WWpPl2F7RjBe",
+        "id" : "7aBzpmFXB4WWpPl2F7RjBe",
+        "name" : "Wyclef Jean",
+        "type" : "artist",
+        "uri" : "spotify:artist:7aBzpmFXB4WWpPl2F7RjBe"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 218093,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USSM10600677"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3ZFTkvIE7kyPt6Nu3PEa7V"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3ZFTkvIE7kyPt6Nu3PEa7V",
+      "id" : "3ZFTkvIE7kyPt6Nu3PEa7V",
+      "name" : "Hips Don't Lie",
+      "popularity" : 76,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3859547944f57cfb7b996f6551148c9467889d4b",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:3ZFTkvIE7kyPt6Nu3PEa7V"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Shakira+-+Hips+Don%27t+Lie&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 176
+  }
+}

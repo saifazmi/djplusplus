@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Eminem+-+Survival&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3qGeRY1wt4rrLIt1YuSwHR"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3qGeRY1wt4rrLIt1YuSwHR",
+        "id" : "3qGeRY1wt4rrLIt1YuSwHR",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/003f1c254e12aa1772238f1538d66404e836f34f",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/31e17843d39ed7d1b060800531deda102e4251e0",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/d1734e8bd5480bd2d93a12117a93d0d73193cb1f",
+          "width" : 64
+        } ],
+        "name" : "The Marshall Mathers LP2 (Deluxe)",
+        "type" : "album",
+        "uri" : "spotify:album:3qGeRY1wt4rrLIt1YuSwHR"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+        "id" : "7dGJo4pcD2V6oG8kP0tJRR",
+        "name" : "Eminem",
+        "type" : "artist",
+        "uri" : "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 272417,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USUM71312879"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/29Key5Lj0YlIMH8JzRDy6U"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/29Key5Lj0YlIMH8JzRDy6U",
+      "id" : "29Key5Lj0YlIMH8JzRDy6U",
+      "name" : "Survival",
+      "popularity" : 60,
+      "preview_url" : "https://p.scdn.co/mp3-preview/c78c5cbeed0c9daa28e9c99f87969db9129a603c",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:29Key5Lj0YlIMH8JzRDy6U"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Eminem+-+Survival&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 70
+  }
+}

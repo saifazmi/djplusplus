@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Imagine+Dragons+-+It%27s+Time&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1vAEF8F0HoRFGiYOEeJXHW"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1vAEF8F0HoRFGiYOEeJXHW",
+        "id" : "1vAEF8F0HoRFGiYOEeJXHW",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/cf52204e4853bab76ee053a7de88fdfc05cf2c64",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d193d17bcba0a950ded4942b4d3ab78bf426d561",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/68f101446752e2960c0d3b112ce71c3b53f593db",
+          "width" : 64
+        } ],
+        "name" : "Night Visions (Deluxe)",
+        "type" : "album",
+        "uri" : "spotify:album:1vAEF8F0HoRFGiYOEeJXHW"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"
+        },
+        "href" : "https://api.spotify.com/v1/artists/53XhwfbYqKCa1cC15pYq2q",
+        "id" : "53XhwfbYqKCa1cC15pYq2q",
+        "name" : "Imagine Dragons",
+        "type" : "artist",
+        "uri" : "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 237986,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USUM71200987"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3xqF04FdMK7gpIPG3SPFpY"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3xqF04FdMK7gpIPG3SPFpY",
+      "id" : "3xqF04FdMK7gpIPG3SPFpY",
+      "name" : "It's Time",
+      "popularity" : 66,
+      "preview_url" : "https://p.scdn.co/mp3-preview/bb4d0263f23dd22395378f503f2bba05b023f3f5",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:3xqF04FdMK7gpIPG3SPFpY"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Imagine+Dragons+-+It%27s+Time&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 97
+  }
+}

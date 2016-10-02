@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Evanescence+-+My+Immortal&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/20mh1X1FQQidKMu2XypyMI"
+        },
+        "href" : "https://api.spotify.com/v1/albums/20mh1X1FQQidKMu2XypyMI",
+        "id" : "20mh1X1FQQidKMu2XypyMI",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/a7be76ff3d57d4902c3b7bb6acb2144859c65c41",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/2c1627d78af64750fd04794ca4b85163ea3c133e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/eb9c05eb3c16c67a00954301ee9c59ca0f5b1726",
+          "width" : 64
+        } ],
+        "name" : "Fallen",
+        "type" : "album",
+        "uri" : "spotify:album:20mh1X1FQQidKMu2XypyMI"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5nGIFgo0shDenQYSE0Sn7c",
+        "id" : "5nGIFgo0shDenQYSE0Sn7c",
+        "name" : "Evanescence",
+        "type" : "artist",
+        "uri" : "spotify:artist:5nGIFgo0shDenQYSE0Sn7c"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 262533,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWU30200104"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1C0vXECyJHUeqOo2Etvrr2"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1C0vXECyJHUeqOo2Etvrr2",
+      "id" : "1C0vXECyJHUeqOo2Etvrr2",
+      "name" : "My Immortal",
+      "popularity" : 64,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ccbc25d3557f0489da5ca929d516bc522fea0365",
+      "track_number" : 4,
+      "type" : "track",
+      "uri" : "spotify:track:1C0vXECyJHUeqOo2Etvrr2"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Evanescence+-+My+Immortal&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 172
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Demi+Lovato+-+Cool+for+the+Summer&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4HLTw1RgvSZkSLAc3pU9kU"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4HLTw1RgvSZkSLAc3pU9kU",
+        "id" : "4HLTw1RgvSZkSLAc3pU9kU",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/0b92e6f9342bcca80644aa6c9bbbdc7854dca3ab",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/daf461fc482fc241f1b9c2e425e5bfa4f98c7eb5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/3bbce6930597a9b3f596b9b180688f4e6e4c8e80",
+          "width" : 64
+        } ],
+        "name" : "Confident (Deluxe Edition)",
+        "type" : "album",
+        "uri" : "spotify:album:4HLTw1RgvSZkSLAc3pU9kU"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6S2OmqARrzebs0tKUEyXyp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6S2OmqARrzebs0tKUEyXyp",
+        "id" : "6S2OmqARrzebs0tKUEyXyp",
+        "name" : "Demi Lovato",
+        "type" : "artist",
+        "uri" : "spotify:artist:6S2OmqARrzebs0tKUEyXyp"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 214739,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USHR11536621"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/73Qlt0XuhuYzEigjitm2ze"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/73Qlt0XuhuYzEigjitm2ze",
+      "id" : "73Qlt0XuhuYzEigjitm2ze",
+      "name" : "Cool for the Summer",
+      "popularity" : 68,
+      "preview_url" : "https://p.scdn.co/mp3-preview/22a7775f9512a08ab1e1fab31a49f5348444cdae",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:73Qlt0XuhuYzEigjitm2ze"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Demi+Lovato+-+Cool+for+the+Summer&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 62
+  }
+}

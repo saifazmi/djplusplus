@@ -1,0 +1,83 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Wiz+Khalifa+-+Young%2C+Wild+and+Free&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AU", "BE", "BG", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0lRlbYQMtETkabg9fNSqAl"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0lRlbYQMtETkabg9fNSqAl",
+        "id" : "0lRlbYQMtETkabg9fNSqAl",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/214993d46d5b96e87d8c34277540c50da8936fa6",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/0e74295675d518d3c10b9a3d313295ee58a347f3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0f2003321e4057d3096e51ce2ba588772994db53",
+          "width" : 64
+        } ],
+        "name" : "Mac and Devin Go To High School (Music From and Inspired By The Movie)",
+        "type" : "album",
+        "uri" : "spotify:album:0lRlbYQMtETkabg9fNSqAl"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7hJcb9fa4alzcOq3EaNPoG",
+        "id" : "7hJcb9fa4alzcOq3EaNPoG",
+        "name" : "Snoop Dogg",
+        "type" : "artist",
+        "uri" : "spotify:artist:7hJcb9fa4alzcOq3EaNPoG"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/137W8MRPWKqSmrBGDBFSop"
+        },
+        "href" : "https://api.spotify.com/v1/artists/137W8MRPWKqSmrBGDBFSop",
+        "id" : "137W8MRPWKqSmrBGDBFSop",
+        "name" : "Wiz Khalifa",
+        "type" : "artist",
+        "uri" : "spotify:artist:137W8MRPWKqSmrBGDBFSop"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0du5cEVh5yTK9QJze8zA0C",
+        "id" : "0du5cEVh5yTK9QJze8zA0C",
+        "name" : "Bruno Mars",
+        "type" : "artist",
+        "uri" : "spotify:artist:0du5cEVh5yTK9QJze8zA0C"
+      } ],
+      "available_markets" : [ "AD", "AR", "AU", "BE", "BG", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 207333,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USAT21102232"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2g7uRZ68eLtv74XrxgdT2q"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2g7uRZ68eLtv74XrxgdT2q",
+      "id" : "2g7uRZ68eLtv74XrxgdT2q",
+      "name" : "Young, Wild & Free (feat. Bruno Mars)",
+      "popularity" : 60,
+      "preview_url" : "https://p.scdn.co/mp3-preview/07aa6b278601d4f50c382fd750000f0f88020f7f",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:2g7uRZ68eLtv74XrxgdT2q"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Wiz+Khalifa+-+Young%2C+Wild+and+Free&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 76
+  }
+}

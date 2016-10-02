@@ -1,0 +1,11 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Tristam+-+League+of+Legends&offset=0&limit=1&type=track&market=GB",
+    "items" : [ ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Tristam+-+Flight&offset=0&limit=1&type=track&market=GB",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6BVBm72Q7gLZUEm1fyoBB7"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6BVBm72Q7gLZUEm1fyoBB7",
+        "id" : "6BVBm72Q7gLZUEm1fyoBB7",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/9d80a2a79a783a305b12e507d44b706e7e352cf3",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/af96aa0adcd2b459b5625bd364c942a323976ac4",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/b6cae7a285355bbb711f62d6724168c2fb6d8b73",
+          "width" : 64
+        } ],
+        "name" : "Monstercat 012 - Aftermath",
+        "type" : "album",
+        "uri" : "spotify:album:6BVBm72Q7gLZUEm1fyoBB7"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/28Ky95tmlHktB96DBUoB0g"
+        },
+        "href" : "https://api.spotify.com/v1/artists/28Ky95tmlHktB96DBUoB0g",
+        "id" : "28Ky95tmlHktB96DBUoB0g",
+        "name" : "Tristam",
+        "type" : "artist",
+        "uri" : "spotify:artist:28Ky95tmlHktB96DBUoB0g"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1SFSz2SewAsgPeFvGmAouI"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1SFSz2SewAsgPeFvGmAouI",
+        "id" : "1SFSz2SewAsgPeFvGmAouI",
+        "name" : "Braken",
+        "type" : "artist",
+        "uri" : "spotify:artist:1SFSz2SewAsgPeFvGmAouI"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 219428,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CA6D21000170"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/66WcaWVGRFmpx0euxmw9yM"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/66WcaWVGRFmpx0euxmw9yM",
+      "id" : "66WcaWVGRFmpx0euxmw9yM",
+      "name" : "Flight",
+      "popularity" : 63,
+      "preview_url" : "https://p.scdn.co/mp3-preview/84ce7f7aaea7c2117c6c29c261a5bb58bea61e4e",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:66WcaWVGRFmpx0euxmw9yM"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=Tristam+-+Flight&offset=1&limit=1&type=track&market=GB",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 5
+  }
+}
