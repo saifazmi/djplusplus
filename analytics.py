@@ -36,11 +36,6 @@ def get_sections(analytics):
     sections = map(lambda section: dict(start=int(1000*section["start"]), duration=int(1000*section["duration"])), sections) # pls explain
     return sections
 
-def match_target_amplitude(sound, target_dBFS):
-    change_in_dBFS = target_dBFS - sound.dBFS
-    return sound.apply_gain(change_in_dBFS)
-# sound = AudioSegment.from_file(…)
-# normalized_sound = match_target_amplitude(sound, -20.0)
 
 def do_file(f, analytics):
     sections = get_sections(analytics)
@@ -48,17 +43,27 @@ def do_file(f, analytics):
         return None
     # sections = [{'duration': 17090, 'start': 0}, {'duration': 21356, 'start': 17090}, {'duration': 54395, 'start': 38446}, {'duration': 7199, 'start': 92842}, {'duration': 68318, 'start': 100041}, {'duration': 11558, 'start': 168359}, {'duration': 46519, 'start': 179918}, {'duration': 61686, 'start': 226438}, {'duration': 8007, 'start': 288124}]
     print sections
-    chosen = randint(0, len(sections) - 1)  # choose an index randomly to select a
+    chosen = 0
+    for i in range(0, 5):
+        chosen = randint(0, len(sections) - 1)  # choose an index randomly to select a
+        if sections[chosen]["duration"] > 5000:
+            break
     print sections[chosen]
     full_f = MUSIC_FOLDER + "/" + f
     song = AudioSegment.from_mp3(full_f)
     song = song[sections[chosen]["start"]:]
-    song = song[0:sections[chosen]["duration"]] # filter out the single section
+    song = song[0:sections[chosen]["duration"]]  # filter out the single section
     return song
 
 
 def append(first, second, crossfade=100):
     seg1, seg2 = AudioSegment._sync(first, second)
+    
+    # match_target_amplitude(seg1, 0)
+    # match_target_amplitude(seg2, 0)
+    mid = int((seg1.rms + seg2.rms) / 2)
+    seg1.apply_gain(mid - seg1.rms)
+    seg2.apply_gain(mid - seg2.rms)
 
     if not crossfade:
         return seg1._spawn(seg1._data + seg2._data)
@@ -67,7 +72,7 @@ def append(first, second, crossfade=100):
     xf = seg1[-crossfade:].set_frame_rate(seg2.frame_rate).fade_out(crossfade)
     # xf *= seg2[:crossfade].fade(from_gain=-120, start=0, end=float('inf'))
     xf *= seg2[:crossfade].fade_in(crossfade)
-
+    
     output = TemporaryFile()
 
     output.write(seg1[:-crossfade]._data)
