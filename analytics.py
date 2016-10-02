@@ -59,7 +59,7 @@ def append(first, second, crossfade=100):
         return seg1._spawn(seg1._data + seg2._data)
 
     # xf = seg1[-crossfade:].fade(to_gain=-120, start=0, end=float('inf'))
-    xf = seg1[-crossfade:].fade_out(crossfade)
+    xf = seg1[-crossfade:].set_frame_rate(seg2.frame_rate).fade_out(crossfade)
     # xf *= seg2[:crossfade].fade(from_gain=-120, start=0, end=float('inf'))
     xf *= seg2[:crossfade].fade_in(crossfade)
 
@@ -78,7 +78,6 @@ def read_music():
     files = listdir(MUSIC_FOLDER)  # gives a list of all the files in the music folder
     shuffle(files)  # shuffles the files within the list
     songs_by_key = {}
-    i = 0
     for f in files:
         if not re.match(".*\\.mp3", f):
             continue
@@ -93,11 +92,12 @@ def read_music():
         if str(key) not in songs_by_key.keys():
             songs_by_key[str(key)] = []
             print songs_by_key[str(key)]
-        songs_by_key[str(key)].append(song)
-        
-        i += 1
-        if i == 20:
+        else:
+            # Else is temporary, we just care about the first 2 songs matching.
+            songs_by_key[str(key)].append(song)
+            songs_by_key = {str(key): songs_by_key[str(key)]}
             break
+        songs_by_key[str(key)].append(song)
     
     key = songs_by_key.keys()[randint(0, len(songs_by_key.keys()) - 1)]
     
@@ -107,7 +107,7 @@ def read_music():
         if out is None:
             out = song
         else:
-            out = append(out, song, 5000)
+            out = append(out, song, 7000)
     playback.play(out)
 
 if __name__ == '__main__':
